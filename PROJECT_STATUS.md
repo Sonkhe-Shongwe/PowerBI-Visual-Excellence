@@ -1,10 +1,10 @@
 # Project Status
 
 **As of:** 2026-11-13  
-**Overall progress:** 26% (weighted estimate)  
+**Overall progress:** 28% (weighted estimate)  
 **Current phase:** P2 — Structural, visual and technical deconstruction
-**Current focus:** Next operational-monitoring reference, beginning with REF-008 SQL Radar  
-**Project state:** Reference discovery gate complete; seven studies documented, three source-level, three description-led and one screenshot/walkthrough-led
+**Current focus:** Official Microsoft sample audit, beginning with REF-004  
+**Project state:** Reference discovery gate complete; eight studies documented, three source-level, four description-led and one screenshot/walkthrough-led
 
 ## Executive status
 
@@ -12,7 +12,7 @@ This repository is a Power BI learning and design-research workspace. Its purpos
 
 The external reports are case studies, not the deliverables we are trying to recreate. The user's personal projects remain in their own repositories.
 
-The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Three description-led studies, AstraVale SQL Health, OECD Global Well-being and Europe in Motion, and one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
+The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Four description-led studies, AstraVale SQL Health, OECD Global Well-being, Europe in Motion and SQL Radar, and one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
 
 The first two public repositories and declared MIT licences were checked; their report definitions, selected visual configurations, TMDL, DAX and component source were inspected. Their PBIX files have not been opened in Power BI Desktop. AstraVale's public Power BI link was identified but could not be rendered in the available browsing interface; no PBIX or source repository was confirmed. Runtime interactions, performance, service rendering and accessibility therefore remain unverified.
 
@@ -23,12 +23,12 @@ No personal project has been modified through this research workspace.
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
 | P1 — Reference discovery | 100% | Complete | Eleven references recorded; seven high-priority candidates selected |
-| P2 — Structural, visual and technical deconstruction | 45% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003, REF-006 and REF-007 description-led studies; REF-009 screenshot/walkthrough study documented |
+| P2 — Structural, visual and technical deconstruction | 50% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003, REF-006, REF-007 and REF-008 description-led studies; REF-009 screenshot/walkthrough study documented |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
 | P5 — Validate, refine and document learning | 0% | Not started | No applied-pattern review |
 
-The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 11.25% from P2, or 26.25%, rounded to 26%.
+The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 12.5% from P2, or 27.5%, rounded to 28%.
 
 ## Verified starting points
 
@@ -42,9 +42,18 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | AstraVale SQL Health | Creator describes five pages, dataset and operational decision flow; public Power BI URL identified but not rendered | Inspect live report when a compatible browser is available; PBIX/source access remains unconfirmed |
 | OECD Global Well-being | Creator describes dynamic SVG progress bars, anomaly-aware trends, country cross-filtering and gender small multiples; official winner status verified | Verify report rendering, progress-bar scale, anomaly behaviour and whether weighted-composite controls are part of the same report |
 | Europe in Motion | Four-page report description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim verified | PBIX/source not confirmed; inspect full analytical pages and accessibility when available |
+| SQL Radar | Three-page Signal/Diagnosis/Action structure; native/HTML split; screenshot and 903 KB PBIX attachment listed on source page | PBIX not downloaded/opened; verify licence, page layout and technical implementation |
 | Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
+
+## REF-008 study documents
+
+- [Study notes](reference-studies/sql-radar/STUDY_NOTES.md)
+- [Page architecture](reference-studies/sql-radar/PAGE_ARCHITECTURE.md)
+- [Visual system](reference-studies/sql-radar/VISUAL_SYSTEM.md)
+- [Technical notes](reference-studies/sql-radar/TECHNICAL_NOTES.md)
+- [Transferable patterns](reference-studies/sql-radar/TRANSFERABLE_PATTERNS.md)
 
 ## REF-007 study documents
 
@@ -109,8 +118,8 @@ P1 is complete: the catalogue now contains ten references, each with a source li
 
 ## Next action
 
-Begin the next operational-monitoring study with REF-008 SQL Radar. Verify the PBIX attachment reported on the original community page, inspect the report description and any screenshots, and document its page structure, operational KPIs, alerts, drilldown and decision flow. Check the licence and file availability before claiming source-level access.
+Begin the next source-based audit with REF-004, the official Microsoft Power BI sample set. Select one sample with a clear report architecture and inspect its PBIX/source materials, page structure, visual configuration, navigation and semantic model. Keep this as a learning reference rather than a personal project.
 
-Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. AstraVale, OECD and Europe in Motion report links are recorded, but their live rendering remains unverified.
+The SQL Radar PBIX attachment is listed publicly but has not been downloaded/opened. The World of Peaches and City Sustainability PBIX files also remain untested in Power BI Desktop.
 
-The goal is to compare different approaches to operational monitoring, not to recreate the report.
+The goal is to compare native Power BI implementation patterns with the hybrid and custom-visual approaches already studied.
