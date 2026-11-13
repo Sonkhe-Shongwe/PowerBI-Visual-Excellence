@@ -75,10 +75,15 @@ A reference is a research candidate until it has been inspected. A public screen
 
 ### REF-006 — OECD Global Well-being
 
-- Community source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winning-report---world-champion---oecd-global-well-being/4643676
-- The creator's post describes dynamic, colour-coordinated SVG progress bars, anomaly-detection trends, country cross-filtering, domain selection and small-multiple comparisons.
-- Candidate learning areas: country comparison, dynamic SVG, domain selection and analytical storytelling.
-- Status: source identified; verify report availability, author details, downloadable artefacts and reuse permissions during audit.
+- Creator: Jon Sandmann.
+- Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winning-report---world-champion---oecd-global-well-being/4643676
+- Official Microsoft winner announcement: https://community.fabric.microsoft.com/blog/fbc_pbiupdatesblog/the-first-power-bi-dataviz-world-champion---jon-sandmann/5174221
+- Related Reddit discussion: https://www.reddit.com/r/PowerBI/comments/1jp3123/
+- The official Microsoft announcement confirms Jon Sandmann as the 2025 Power BI DataViz World Champion.
+- The creator describes three well-being domains with three measures each, dynamic SVG progress bars for global averages, yearly trends with anomaly detection, country tables, country cross-filtering, domain-specific colours/images and a second gender-disparity page using small multiples.
+- Description-led study completed in reference-studies/oecd-global-wellbeing/.
+- The community post includes a Power BI embed token, but the live report could not be rendered through the available browsing interface. No separate PBIX or source repository was confirmed.
+- A related Reddit post describes a six-metric weighted composite with user-adjustable sliders. It is not fully cross-validated against the creator's report description and remains a related, unconfirmed detail.
 
 ### REF-007 — Europe in Motion
 
