@@ -11,7 +11,7 @@ A reference is a research candidate until it has been inspected. A public screen
 |---|---|---|---|---|---|---|
 | REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, theme and report JSON inspected; MIT declared | High | Source study documented; runtime checks pending |
 | REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, report config and model source inspected; MIT declared | High | Source study documented; runtime checks pending |
-| REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and report | Public report link; downloadable PBIX not confirmed | High | Candidate; source audit pending |
+| REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and public Power BI report link | Five-page description and public report URL verified; downloadable PBIX/source not confirmed | High | Description-led study documented; runtime inspection pending |
 | REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | Multiple PBIX files available | Medium | Candidate; sample selection pending |
 | REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft sample documentation | PBIX listed | Medium | Candidate; source audit pending |
 | REF-006 | OECD Global Well-being | Championship / country comparison | Fabric Community gallery and creator discussion | Report reference identified; source package requires verification | High | Candidate; source audit pending |
@@ -50,10 +50,13 @@ A reference is a research candidate until it has been inspected. A public screen
 
 - Creator: Marius Helle.
 - Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/world-champion-winner---live-finale-build---astravale-sql-health-report-by-mariu/5373203
+- Public Power BI report: https://app.powerbi.com/view?r=eyJrIjoiNjNhYzU4MDEtZDc3ZS00MTQ5LTk1YmEtODE2MjZkODkzOTk5IiwidCI6ImI2ZGEwOTc1LTEwY2EtNDE0ZS04YTZjLTE1ZjgzMzgxZGUzMiJ9
 - The community post identifies it as the 2026 Power BI DataViz World Championship finale winner.
-- The post describes a guided sequence: overview, problems, causes, connections and recommended actions.
-- Potential learning areas: operational KPI hierarchy, heatmaps, prioritisation, analytical storytelling and decision-oriented page sequencing.
-- Unknowns: PBIX availability, source code, model structure, exact page dimensions and licence. Do not assume source access.
+- The creator describes five stages: Overview, Problems, Causes, Connections and Action.
+- The described dataset covers 10 Azure SQL databases across 7 sites from 1 August to 16 September 2026, with eight metrics, warning/critical thresholds, equipment value, shared sites/data feeds and health-check results.
+- Description-led study completed: the five-page decision architecture and transferable patterns are documented in reference-studies/astravale-sql-health/.
+- Runtime status: the public Power BI link was identified but could not be rendered/interacted with in the available browsing interface. A downloadable PBIX and source repository were not confirmed.
+- Potential learning areas: per-system baselines, deterioration detection, cause investigation, dependency analysis, equipment-value-based prioritisation and scenario planning.
 
 ### REF-004 — Microsoft 2026 Power BI samples
 
