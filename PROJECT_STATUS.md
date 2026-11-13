@@ -91,8 +91,8 @@ P1 is complete: the catalogue now contains ten references, each with a source li
 
 ## Next action
 
-Begin the fifth high-priority study with REF-009 Power BI Basketball Cards. Review the official contest entry and creator walkthrough for native-visual interaction patterns: the flippable card, visibility states, navigation and image-backed scatter plot. PBIX availability and exact implementation remain unconfirmed.
+Begin the next technical reference study with REF-010 Deneb Power BI Example. Review the public PBIX and README for Deneb/Vega-Lite specifications, custom chart encodings, tooltips, drillthrough and report-page tooltips. The repository has no LICENSE file, so treat its contents as study-only unless reuse permission is confirmed.
 
 Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. AstraVale and OECD report links are recorded, but their live rendering remains unverified.
 
-The goal is to understand a native-only approach to advanced interactions, not to recreate the report.
+The goal is to understand the technical options and trade-offs of custom visuals, not to recreate the report.
