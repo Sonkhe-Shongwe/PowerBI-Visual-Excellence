@@ -116,7 +116,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-007: Europe in Motion**. Verify the original source, inspect available screenshots and report links, and focus on information hierarchy, accessibility decisions, map/storytelling patterns and page sequence. Clearly distinguish observed visuals from creator descriptions. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-008: SQL Radar**. Verify the PBIX attachment reported on the original community page, inspect available screenshots and report details, and focus on operational KPIs, alert hierarchy, drilldown and decision flow. Confirm file and licence availability before claiming source-level access. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
 
 ---
 
