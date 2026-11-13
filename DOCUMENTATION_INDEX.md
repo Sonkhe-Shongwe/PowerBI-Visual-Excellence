@@ -32,6 +32,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/city-sustainability-scorecard/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/city-sustainability-scorecard/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/city-sustainability-scorecard/TRANSFERABLE_PATTERNS.md)
+- [AstraVale SQL Health](reference-studies/astravale-sql-health/README.md) — REF-003 study index.
+  - [Study notes](reference-studies/astravale-sql-health/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/astravale-sql-health/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/astravale-sql-health/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/astravale-sql-health/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/astravale-sql-health/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
