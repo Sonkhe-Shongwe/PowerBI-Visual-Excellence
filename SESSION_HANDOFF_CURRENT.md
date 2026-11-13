@@ -30,7 +30,7 @@ This project is about Power BI, not PilotODIN.
 
 - Repository existence, public visibility, default branch and write permissions were verified.
 - Foundation documentation, roadmap, research catalogue, audit template and QA guidance have been committed.
-- The reference catalogue contains ten candidates, including five high-priority references. P1 is complete.
+- The reference catalogue contains eleven candidates, including six high-priority references. P1 is complete.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
 - The description-led REF-003 study of AstraVale SQL Health is documented in five study files.
@@ -40,7 +40,7 @@ This project is about Power BI, not PilotODIN.
 - The source-level REF-011 Deneb Template Showcase study is documented in six study files. Its MIT-licensed repository contains 21 Vega/Vega-Lite templates, sample data, previews, a custom theme and a 22-page PBIP showcase.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
-- The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
 - P2 now contains five documented studies: two source-level, two description-led and one screenshot/walkthrough-led.
 - P2 progress is 40%; overall weighted progress is 25%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
