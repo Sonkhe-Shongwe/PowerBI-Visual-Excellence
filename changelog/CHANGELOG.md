@@ -2,6 +2,16 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-13 — P1 reference discovery gate completed
+
+- Expanded the reference catalogue to ten sourced candidates.
+- Added Power BI Basketball Cards as a native-visual interaction reference.
+- Added Deneb Power BI Example as a focused Vega-Lite/Deneb technical reference; no licence file was found.
+- Selected five high-priority candidates for deeper study.
+- Marked P1 complete and moved the current phase to P2.
+- Recorded the next study as REF-003 AstraVale SQL Health.
+- No benchmark scores assigned and no personal project modified.
+
 ## 2026-11-13 — REF-002 source-level study documented
 
 - Verified the City Sustainability Scorecard public GitHub repository and MIT licence.
