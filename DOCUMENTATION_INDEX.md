@@ -50,6 +50,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/powerbi-basketball-cards/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/powerbi-basketball-cards/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/powerbi-basketball-cards/TRANSFERABLE_PATTERNS.md)
+- [Deneb Template Showcase](reference-studies/deneb-template-showcase/README.md) — REF-011 study index.
+  - [Study notes](reference-studies/deneb-template-showcase/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/deneb-template-showcase/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/deneb-template-showcase/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/deneb-template-showcase/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/deneb-template-showcase/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
