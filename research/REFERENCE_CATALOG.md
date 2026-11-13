@@ -17,7 +17,7 @@ A reference is a research candidate until it has been inspected. A public screen
 | REF-006 | OECD Global Well-being | Championship / country comparison | Official Microsoft announcement, creator's Fabric Community entry and related Reddit discussion | Creator post includes a Power BI embed token; separate PBIX/source not confirmed | High | Description-led study documented; live/source inspection pending |
 | REF-007 | Europe in Motion | Championship / accessible data storytelling | Fabric Community gallery | Report reference identified; source package requires verification | Medium | Candidate; source audit pending |
 | REF-008 | SQL Radar | Championship / operational monitoring | Fabric Community gallery | PBIX attachment reported on source page; verify availability | Medium | Candidate; download/licence check pending |
-| REF-009 | Power BI Basketball Cards | Championship / interactive sports storytelling | Microsoft Fabric Community entry and creator walkthrough | Public post/video; PBIX download not confirmed | High | Candidate; runtime/source audit pending |
+| REF-009 | Power BI Basketball Cards | Championship / interactive sports storytelling | Microsoft Fabric Community entry, official winner announcement, creator walkthrough and published screenshot | Core-visual approach and interaction technique documented; PBIX download not confirmed | High | Screenshot- and walkthrough-led study documented; PBIX/source inspection pending |
 | REF-010 | Deneb Power BI Example | Technical reference / custom visual engineering | Public GitHub repository | PBIX available (about 4.53 MB); README describes Deneb examples; no LICENSE file found | Medium | Candidate; source review pending |
 
 ## Reference details
@@ -108,7 +108,8 @@ A reference is a research candidate until it has been inspected. A public screen
 - The report uses 2022–2023 NBA player and shot data. The creator describes a flippable player card, clean navigation and a shot-location view, built with Power BI core visuals and no custom visual add-ons.
 - The creator walkthrough explains a two-state card approach using two measures in one KPI card visual, with layout visibility controlling which side is shown. It also describes overlaying a basketball-court image beneath a scatter plot using shot X/Y coordinates.
 - Potential learning areas: native-only interaction design, state switching, image-backed scatter plots, player selection, visual layering and interaction-led storytelling.
-- PBIX status: no downloadable PBIX was confirmed in the inspected public source pages. Treat this as a visual/interaction reference until the source file is located.
+- PBIX status: a community commenter asked for the PBIX, but no downloadable file was confirmed in the inspected public sources. Treat this as a screenshot- and walkthrough-led interaction study until the source file is located.
+- Study documents: reference-studies/powerbi-basketball-cards/.
 - Licence/reuse status: not confirmed. Do not reuse player images, logos or other assets without checking their rights.
 
 ### REF-010 — Deneb Power BI Example
