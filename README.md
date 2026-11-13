@@ -115,7 +115,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Begin the first structured study of **The World of Peaches**. Understand its page architecture, visual system, component organisation and implementation approach. The output is a clear learning report and a list of transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-003: AstraVale SQL Health**. Study its operational dashboard structure, problem-diagnosis flow, visual hierarchy and decision-oriented recommendations using the public evidence available. Verify PBIX and live-report access before claiming runtime inspection. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
 
 ---
 
