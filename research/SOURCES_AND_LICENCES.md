@@ -48,6 +48,8 @@ This project studies public Power BI reports and may build original work inspire
 
 The initial repositories for The World of Peaches and City Sustainability Scorecard declare MIT licences. This is a useful starting point for code reuse, but the current LICENSE file and all bundled third-party materials must still be checked before copying any particular component or asset.
 
+Microsoft's Power BI sample documentation also includes legal guidance stating that certain sample workbooks and related data are the property of obviEnce, LLC, and that use of those workbooks/data and visualisations requires the stated attribution and copyright notice. Treat each sample's own terms as authoritative; do not assume that a Microsoft-hosted download is automatically unrestricted for redistribution or portfolio publication.
+
 ## Attribution template
 
 For each reused or adapted component, record:
