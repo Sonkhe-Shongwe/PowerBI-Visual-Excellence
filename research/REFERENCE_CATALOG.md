@@ -7,16 +7,18 @@ A reference is a research candidate until it has been inspected. A public screen
 
 ## Priority references
 
-| ID | Reference | Category | Source access | PBIX/source status | Audit status |
-|---|---|---|---|---|---|
-| REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, theme and report JSON inspected; MIT declared | Source study documented; runtime checks pending |
-| REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, report config and model source inspected; MIT declared | Source study documented; runtime checks pending |
-| REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and report | Public report link; downloadable PBIX not confirmed | Not audited |
-| REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | Multiple PBIX files available | Not audited |
-| REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft sample documentation | PBIX listed | Not audited |
-| REF-006 | OECD Global Well-being | Championship / country comparison | Fabric Community gallery | Report reference identified; source package requires verification | Candidate |
-| REF-007 | Europe in Motion | Championship / accessible data storytelling | Fabric Community gallery | Report reference identified; source package requires verification | Candidate |
-| REF-008 | SQL Radar | Championship / operational monitoring | Fabric Community gallery | PBIX attachment reported on source page; verify availability | Candidate |
+| ID | Reference | Category | Source access | PBIX/source status | Study priority | Audit status |
+|---|---|---|---|---|---|---|
+| REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, theme and report JSON inspected; MIT declared | High | Source study documented; runtime checks pending |
+| REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, report config and model source inspected; MIT declared | High | Source study documented; runtime checks pending |
+| REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and report | Public report link; downloadable PBIX not confirmed | High | Candidate; source audit pending |
+| REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | Multiple PBIX files available | Medium | Candidate; sample selection pending |
+| REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft sample documentation | PBIX listed | Medium | Candidate; source audit pending |
+| REF-006 | OECD Global Well-being | Championship / country comparison | Fabric Community gallery and creator discussion | Report reference identified; source package requires verification | High | Candidate; source audit pending |
+| REF-007 | Europe in Motion | Championship / accessible data storytelling | Fabric Community gallery | Report reference identified; source package requires verification | Medium | Candidate; source audit pending |
+| REF-008 | SQL Radar | Championship / operational monitoring | Fabric Community gallery | PBIX attachment reported on source page; verify availability | Medium | Candidate; download/licence check pending |
+| REF-009 | Power BI Basketball Cards | Championship / interactive sports storytelling | Microsoft Fabric Community entry and creator walkthrough | Public post/video; PBIX download not confirmed | High | Candidate; runtime/source audit pending |
+| REF-010 | Deneb Power BI Example | Technical reference / custom visual engineering | Public GitHub repository | PBIX available (about 4.53 MB); README describes Deneb examples; no LICENSE file found | Medium | Candidate; source review pending |
 
 ## Reference details
 
@@ -88,6 +90,29 @@ A reference is a research candidate until it has been inspected. A public screen
 - Candidate learning areas: operational monitoring, timeline storytelling, maps and custom visual composition.
 - The community post describes a three-page Signal / Diagnosis / Action report, native visuals for data and interactions, and HTML for a zooming map, animated timelines, identity cards and an intro. A 903 KB PBIX attachment is listed on the post.
 - Status: source page and attachment listing verified; download and licence still need checking.
+
+### REF-009 — Power BI Basketball Cards
+
+- Creator: Injae Park.
+- Official contest entry: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winner-of-week-3--power-bi-basketball-cards/4600448
+- Creator walkthrough: https://www.linkedin.com/posts/injae-park_powerbi-dashboarddesign-sportsanalytics-activity-7345811931527589888-DF7M
+- Microsoft Community winner announcement: https://community.fabric.microsoft.com/blog/community_blog/%F0%9F%8F%86-power-bi-dataviz-world-championships--week-3-winner-%F0%9F%8E%89/4606956
+- The report uses 2022–2023 NBA player and shot data. The creator describes a flippable player card, clean navigation and a shot-location view, built with Power BI core visuals and no custom visual add-ons.
+- The creator walkthrough explains a two-state card approach using two measures in one KPI card visual, with layout visibility controlling which side is shown. It also describes overlaying a basketball-court image beneath a scatter plot using shot X/Y coordinates.
+- Potential learning areas: native-only interaction design, state switching, image-backed scatter plots, player selection, visual layering and interaction-led storytelling.
+- PBIX status: no downloadable PBIX was confirmed in the inspected public source pages. Treat this as a visual/interaction reference until the source file is located.
+- Licence/reuse status: not confirmed. Do not reuse player images, logos or other assets without checking their rights.
+
+### REF-010 — Deneb Power BI Example
+
+- Creator: BruntBroccoli.
+- Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
+- The public repository contains a 4.53 MB PBIX, a README and a synthetic data workbook.
+- The README describes a Deneb donut chart with tooltips and drillthrough, a horizontal bar with a dynamic marker, report-page tooltip functionality and drillthrough navigation.
+- The report has five named pages: How This Dashboard Works, Taxonomy, Drillthrough, Tooltip Page and Tolerance Zones.
+- Potential learning areas: Deneb/Vega-Lite specifications, custom chart encodings, tooltips, drillthrough and when a custom visual can solve a limitation of native visuals.
+- Licence status: no LICENSE file was present in the inspected repository tree. Treat the PBIX and its implementation as study-only unless reuse permission is confirmed.
+- This is a focused technical reference, not yet a benchmark for overall dashboard aesthetics.
 
 ## How to add a reference
 
