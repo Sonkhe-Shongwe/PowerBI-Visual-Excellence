@@ -34,12 +34,14 @@ This project is about Power BI, not PilotODIN.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
 - The description-led REF-003 study of AstraVale SQL Health is documented in five study files.
+- The description-led REF-006 study of OECD Global Well-being is documented in five study files.
+- The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
-- P2 progress is 25%; overall weighted progress is approximately 21%.
+- P2 progress is 30%; overall weighted progress is approximately 23%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
 - Overall weighted progress is 20%: P1 complete (15 weighted points) plus P2 at 20% (5 weighted points).
-- Current phase is P2. The next reference to investigate is REF-006 OECD Global Well-being.
+- Current phase is P2. The next reference to investigate is REF-009 Power BI Basketball Cards.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -72,6 +74,16 @@ Public Power BI report: https://app.powerbi.com/view?r=eyJrIjoiNjNhYzU4MDEtZDc3Z
 The creator describes five stages: Overview, Problems, Causes, Connections and Action. The dataset covers 10 Azure SQL databases across 7 sites, eight metrics, warning/critical thresholds, equipment value, shared dependencies and health-check results. The public report URL could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 
 Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/astravale-sql-health/.
+
+### OECD Global Well-being
+
+Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winning-report---world-champion---oecd-global-well-being/4643676
+
+Official winner announcement: https://community.fabric.microsoft.com/blog/fbc_pbiupdatesblog/the-first-power-bi-dataviz-world-champion---jon-sandmann/5174221
+
+The creator describes three domains with three measures each, dynamic SVG progress bars, trends with anomaly detection, country cross-filtering, domain-specific styling and a second gender-disparity page using small multiples. The post includes a Power BI embed token, but no PBIX/source repository was confirmed and the live report was not rendered.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/oecd-global-wellbeing/.
 
 ### Power BI Basketball Cards
 
@@ -127,7 +139,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-006 OECD Global Well-being as the fourth study. Verify the original source and report access, then inspect the composite scoring and user-adjustable weighting approach described in public discussions. Clearly separate observed report behaviour from commentary and inference.
+Begin REF-009 Power BI Basketball Cards as the fifth high-priority study. Review the official contest entry and creator walkthrough for the native-visual flippable card, state switching, navigation and shot-location scatter plot. Confirm what is actually shown in the walkthrough and keep PBIX/source access unverified unless located.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
