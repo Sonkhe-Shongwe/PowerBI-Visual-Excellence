@@ -2,6 +2,15 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-13 — REF-003 AstraVale SQL Health study documented
+
+- Verified the creator's Microsoft Fabric Community description and identified a public Power BI report URL from the creator's employer post.
+- Documented the five-page decision sequence: Overview, Problems, Causes, Connections and Action.
+- Recorded the creator-described dataset: 10 Azure SQL databases, 7 sites, hourly monitoring from 1 August to 16 September 2026, eight metrics, thresholds, equipment value and shared dependencies.
+- Documented baseline comparison, heatmap analysis, cause investigation, dependency analysis and action prioritisation as described by the creator.
+- Marked the study as description-led because the live Power BI report could not be rendered and no PBIX/source repository was confirmed.
+- Updated P2 progress to 25%; no visual benchmark score assigned and no personal project modified.
+
 ## 2026-11-13 — P1 reference discovery gate completed
 
 - Expanded the reference catalogue to ten sourced candidates.
