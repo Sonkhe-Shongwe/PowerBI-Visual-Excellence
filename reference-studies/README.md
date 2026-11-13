@@ -23,7 +23,8 @@ A study should distinguish direct observation from inference. Do not claim techn
 
 ## Current studies
 
-- [The World of Peaches](world-of-peaches/README.md) — first structured study; source-level findings documented, runtime inspection pending.
+- [The World of Peaches](world-of-peaches/README.md) — REF-001; source-level study documented, runtime inspection pending.
+- [City Sustainability Scorecard](city-sustainability-scorecard/README.md) — REF-002; source-level study documented, runtime inspection pending.
 
 ## What we do not do
 
