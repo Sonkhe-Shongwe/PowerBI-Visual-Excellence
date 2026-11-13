@@ -100,6 +100,7 @@ These are candidates for study, not reports we intend to clone:
 - [Power BI Basketball Cards](https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winner-of-week-3--power-bi-basketball-cards/4600448) — native-visual interaction design, flippable player cards and shot-location storytelling.
 - [Deneb Power BI Example](https://github.com/BruntBroccoli/Deneb-Power-BI-Example) — focused technical reference for Deneb/Vega-Lite, custom chart encodings, tooltips and drillthrough.
 - [Deneb Template Showcase](https://github.com/InsightfulAnalytics/Deneb) — MIT-licensed library of 21 reusable Vega/Vega-Lite templates with sample data, previews, automated validation and a PBIP showcase.
+- [Europe in Motion](https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/europe-in-motion-a-dynamic-portrait-of-how-regions-balance-social-and-environmen/4800387) — World Championship-winning, four-page data story with dynamic KPI components, configurable scatter analysis and head-to-head country comparisons.
 
 The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, what is known, what remains unverified and what each report may teach us.
 
