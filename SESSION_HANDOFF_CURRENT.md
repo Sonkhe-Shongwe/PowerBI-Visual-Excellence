@@ -7,29 +7,33 @@
 
 ## Mission
 
-Research, reverse-engineer and responsibly reproduce exceptional Power BI Desktop report designs. Build a reusable visual design system and create original portfolio-grade reports.
+This is a **learning, research and design-reference workspace**. We study exceptional Power BI reports to understand their structure, visual design, information architecture, reusable components and technical implementation. We extract transferable principles and use them to improve the user's own personal projects.
 
-This project is about **Power BI**, not PilotODIN.
+External dashboards are case studies, not the deliverables to recreate. The user's personal projects remain separate and keep their own repositories, goals and implementation history.
+
+This project is about Power BI, not PilotODIN.
 
 ## Decisions confirmed
 
-- The project has its own public GitHub repository.
-- GitHub is the durable source of truth for research, documentation, design decisions and implementation notes.
-- Primary build target: Power BI Desktop reports (PBIX, with PBIP considered when useful).
-- Power BI Service dashboards and Desktop reports must be distinguished in documentation.
-- Research should examine real reports and downloadable source files where available, not rely only on attractive screenshots.
-- The goal is professional, highly polished work, with visual quality balanced against usability, accessibility, analytical correctness and maintainability.
-- Use a phased roadmap with evidence-based percentages.
-- Do not claim that a report has been inspected or recreated until it has actually been opened, tested and documented.
-- Respect source licences; link to external artefacts rather than copying files without permission.
+- GitHub is the durable source of truth for reference research, study notes, design principles and technique documentation.
+- The repository is not intended to become a collection of cloned external dashboards.
+- The main learning targets are report structure, page architecture, visual hierarchy, composition, typography, colour, chart design, interactions, reusable components and technical implementation.
+- Research findings should be distilled into transferable patterns, not copied blindly.
+- The user's personal projects are the actual implementation destinations.
+- Personal project source files and deliverables remain in their own repositories.
+- The user chooses which personal project to work on and which lessons to apply.
+- Small isolated proof-of-concepts are allowed only when needed to understand a specific technique.
+- Do not claim a report or technique has been inspected or tested until evidence exists.
+- Respect source licences and creator attribution.
 
 ## Current state
 
 - Repository existence, public visibility, default branch and write permissions were verified.
-- Initial foundation documentation has been committed and the repository tree has been verified.
-- Research shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
-- The first recommended deep dive is The World of Peaches. No local PBIX inspection has been completed yet.
-- No reconstruction has started.
+- Foundation documentation, roadmap, research catalogue, audit template and QA guidance have been committed.
+- Initial reference shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
+- The first recommended study is The World of Peaches.
+- No complete reference study has been performed.
+- No personal project has been modified through this research workspace.
 
 ## Research facts to preserve
 
@@ -56,24 +60,27 @@ The Microsoft Fabric Community post identifies it as the 2026 Power BI DataViz W
 Official documentation: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets  
 Official sample repository: https://github.com/microsoft/powerbi-desktop-samples
 
-The Microsoft Learn page describes PBIX as containing report pages, data model, queries and visuals. It lists 2026 refreshed samples including AdventureWorks Sales and Artificial Intelligence.
+Microsoft's sample resources provide examples for studying report design and implementation. Each sample's own licensing and attribution conditions must be checked before reuse.
 
 ## Immediate next session
 
-Perform a source-first forensic review of The World of Peaches:
-1. Inspect the full repository tree and licence.
-2. Download the PBIX from the original creator's repository.
-3. Open the file in Power BI Desktop.
-4. Record page count, canvas dimensions, page purpose and visible layout.
+Perform a source-first study of The World of Peaches:
+1. Inspect the original repository tree and licence.
+2. Confirm which artefacts can be inspected.
+3. Open the PBIX in Power BI Desktop if available.
+4. Record page names, purposes, sequence and layout.
 5. Inspect the theme JSON and source organisation.
-6. Inspect representative DAX and HTML/CSS components.
-7. Record findings, uncertainties and candidate reusable patterns.
-8. Only then decide which single page or component to reconstruct first.
+6. Study representative DAX and HTML/CSS components.
+7. Explain the visual and structural decisions and what can be learned from them.
+8. Extract reusable patterns and possible applications to the user's own projects.
+9. Do not start a full report recreation.
 
 ## Required end-of-session updates
 
 - Update PROJECT_STATUS.md.
-- Update this handoff with the new verified state.
-- Update the reference catalogue and relevant audit file.
+- Update this handoff.
+- Update the reference catalogue and relevant study notes.
 - Add a concise entry to the changelog.
-- Identify the next action and any user-side dependency.
+- Record extracted principles in the design-system or techniques library.
+- If a personal project is changed, commit that implementation in its own repository.
+- Identify the next learning action and any user-side dependency.
