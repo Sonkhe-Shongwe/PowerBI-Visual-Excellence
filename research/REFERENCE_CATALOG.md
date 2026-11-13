@@ -19,6 +19,7 @@ A reference is a research candidate until it has been inspected. A public screen
 | REF-008 | SQL Radar | Championship / operational monitoring | Fabric Community gallery | PBIX attachment reported on source page; verify availability | Medium | Candidate; download/licence check pending |
 | REF-009 | Power BI Basketball Cards | Championship / interactive sports storytelling | Microsoft Fabric Community entry, official winner announcement, creator walkthrough and published screenshot | Core-visual approach and interaction technique documented; PBIX download not confirmed | High | Screenshot- and walkthrough-led study documented; PBIX/source inspection pending |
 | REF-010 | Deneb Power BI Example | Technical reference / custom visual engineering | Public GitHub repository | PBIX available (about 4.53 MB); README describes Deneb examples; no LICENSE file found | Medium | Candidate; source review pending |
+| REF-011 | Deneb Template Showcase | Technical reference / reusable Deneb component library | Public GitHub repository and PBIP source | MIT; 21 specs, 21 previews, 21 sample datasets, 22-page PBIP showcase, custom theme and validation script | High | Source-level technical study documented; runtime pending |
 
 ## Reference details
 
@@ -122,6 +123,19 @@ A reference is a research candidate until it has been inspected. A public screen
 - Potential learning areas: Deneb/Vega-Lite specifications, custom chart encodings, tooltips, drillthrough and when a custom visual can solve a limitation of native visuals.
 - Licence status: no LICENSE file was present in the inspected repository tree. Treat the PBIX and its implementation as study-only unless reuse permission is confirmed.
 - This is a focused technical reference, not yet a benchmark for overall dashboard aesthetics.
+
+### REF-011 — Deneb Template Showcase
+
+- Maintainer: InsightfulAnalytics / Timothy Osborn.
+- Source: https://github.com/InsightfulAnalytics/Deneb
+- Licence: MIT.
+- The repository contains 21 reusable Vega/Vega-Lite templates, 21 preview PNGs, 21 sample-data CSV files, template READMEs, render configuration and automated validation.
+- The PBIP showcase contains 22 pages: one KPI Dashboard 2015 page and one page for each template.
+- The showcase uses the Fluent2-CY26SU07 base theme plus the registered BI Nexus custom theme and a registered SVG background.
+- The KPI Dashboard 2015 page is 1600 × 900 and contains 12 Deneb components: four headline KPI cards and eight supporting analysis visuals.
+- Source-level study completed in reference-studies/deneb-template-showcase/.
+- Potential learning areas: Vega/Vega-Lite data contracts, theme-aware pbiColor/pbiFormat helpers, responsive sizing, dynamic labels, bullet charts, calendar heatmaps, KPI small multiples, P&L statements and automated visual-library validation.
+- Caution: Deneb is a custom visual dependency. The author-reported P&L performance comparison has not been independently reproduced. Preserve attribution to original visual designers.
 
 ## How to add a reference
 
