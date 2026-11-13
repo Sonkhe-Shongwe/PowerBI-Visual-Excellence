@@ -66,17 +66,8 @@ P1 is complete: the catalogue now contains ten references, each with a source li
 
 ## Next action
 
-Begin the third reference study with REF-003 AstraVale SQL Health. Establish the report's page sequence, information hierarchy, visual types, operational monitoring patterns and decision flow from the public source. Do not assume PBIX or source-code access until verified.
+Begin the third reference study with REF-003 AstraVale SQL Health. Establish the report's page sequence, information hierarchy, visual types, operational monitoring patterns and decision flow from the public source. Verify whether a public live report, downloadable PBIX or source files are actually available before claiming deeper inspection.
 
-Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available.
+Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. The next research step does not depend on the user opening either PBIX.
 
-Complete runtime inspection of REF-001 in Power BI Desktop:
-1. Open the PBIX.
-2. Test page navigation and filter synchronisation.
-3. Test metric and view selectors.
-4. Open and close tutorial overlays.
-5. Test map interactions and hover states.
-6. Check text readability and accessibility at the target display size.
-7. Record any differences between source configuration and observed behaviour.
-
-The goal is to close the runtime-evidence gap, not to recreate the report.
+The goal is to understand a contrasting operational dashboard and extract transferable lessons, not to recreate it.
