@@ -9,7 +9,7 @@ A reference is a research candidate until it has been inspected. A public screen
 
 | ID | Reference | Category | Source access | PBIX/source status | Audit status |
 |---|---|---|---|---|---|
-| REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository | PBIX and source files listed; MIT declared | Not audited |
+| REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, theme and report JSON inspected; MIT declared | Source study documented; runtime checks pending |
 | REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository | PBIX and source files listed; MIT declared | Not audited |
 | REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and report | Public report link; downloadable PBIX not confirmed | Not audited |
 | REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | Multiple PBIX files available | Not audited |
@@ -26,7 +26,10 @@ A reference is a research candidate until it has been inspected. A public screen
 - Source: https://github.com/gusbavia/the-world-of-peaches
 - Repository licence: MIT (verify the current LICENSE file before reusing code or assets).
 - The repository README lists a full PBIX, 45 DAX measures, 17 HTML/CSS component templates, TMDL semantic-model source, report layout/bookmarks and a theme JSON.
-- Potential learning areas: design tokens, page composition, component sizing, DAX-driven visual elements, HTML/CSS templates, field parameters, accessibility text and report navigation.
+- Source study: five sections (Welcome plus four analytical pages), 1280 × 720 canvas, hybrid native/custom visual architecture, 45 DAX files, 17 HTML templates, 16 CSS files, TMDL model, theme JSON and eight bookmark folders.
+- Potential learning areas: design-first workflow, page composition, design tokens, component development, DAX-generated HTML/SVG, guided navigation and accessibility.
+- Runtime status: PBIX has not yet been opened in Power BI Desktop; interactions, service rendering and accessibility remain unverified.
+- Note: exposed TMDL selector tables are DATATABLE-based selectors; native field-parameter status has not been established.
 - Caution: verify any embedded media, external dependencies and data provenance separately. The repository licence does not automatically grant rights to third-party assets.
 
 ### REF-002 — City Sustainability Scorecard
