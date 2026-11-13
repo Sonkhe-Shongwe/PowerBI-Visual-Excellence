@@ -56,6 +56,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/deneb-template-showcase/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/deneb-template-showcase/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/deneb-template-showcase/TRANSFERABLE_PATTERNS.md)
+- [Europe in Motion](reference-studies/europe-in-motion/README.md) — REF-007 study index.
+  - [Study notes](reference-studies/europe-in-motion/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/europe-in-motion/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/europe-in-motion/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/europe-in-motion/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/europe-in-motion/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
