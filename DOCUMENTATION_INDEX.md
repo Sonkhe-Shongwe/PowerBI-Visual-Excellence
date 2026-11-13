@@ -20,7 +20,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
 ## Reference studies
 
 - [Reference studies index](reference-studies/README.md) — how external reports are studied.
-- [The World of Peaches](reference-studies/world-of-peaches/README.md) — first proposed study.
+- [The World of Peaches](reference-studies/world-of-peaches/README.md) — REF-001 study index.
+  - [Study notes](reference-studies/world-of-peaches/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/world-of-peaches/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/world-of-peaches/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/world-of-peaches/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/world-of-peaches/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
