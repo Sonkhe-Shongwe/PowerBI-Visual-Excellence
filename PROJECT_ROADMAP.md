@@ -37,7 +37,7 @@ Exit criteria:
 - At least 5 high-priority references selected for deeper study.
 - No reference receives a final score before an adequate study.
 
-**Status:** Exit criteria met on 2026-11-13. Ten references are recorded, with five marked high priority. The priority labels select learning candidates; they are not quality scores.
+**Status:** Exit criteria met on 2026-11-13. The catalogue now contains eleven references, with six marked high priority. The priority labels select learning candidates; they are not quality scores.
 
 ## P2 — Structural, visual and technical deconstruction
 
