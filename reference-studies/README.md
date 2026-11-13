@@ -25,6 +25,7 @@ A study should distinguish direct observation from inference. Do not claim techn
 
 - [The World of Peaches](world-of-peaches/README.md) — REF-001; source-level study documented, runtime inspection pending.
 - [City Sustainability Scorecard](city-sustainability-scorecard/README.md) — REF-002; source-level study documented, runtime inspection pending.
+- [AstraVale SQL Health](astravale-sql-health/README.md) — REF-003; description-led study documented, live report and source inspection pending.
 
 ## What we do not do
 
