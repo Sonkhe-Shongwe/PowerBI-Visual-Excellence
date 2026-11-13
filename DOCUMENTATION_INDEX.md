@@ -38,6 +38,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/astravale-sql-health/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/astravale-sql-health/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/astravale-sql-health/TRANSFERABLE_PATTERNS.md)
+- [OECD Global Well-being](reference-studies/oecd-global-wellbeing/README.md) — REF-006 study index.
+  - [Study notes](reference-studies/oecd-global-wellbeing/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/oecd-global-wellbeing/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/oecd-global-wellbeing/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/oecd-global-wellbeing/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/oecd-global-wellbeing/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
