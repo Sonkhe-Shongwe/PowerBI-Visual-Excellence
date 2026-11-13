@@ -2,6 +2,17 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-13 — REF-007 Europe in Motion study documented
+
+- Verified the creator's four-page description and selected community replies.
+- Inspected the creator's landing-page screenshot and LinkedIn entry.
+- Verified the employer's announcement that Paulo Grijó won the 2025 Power BI DataViz World Championship with Europe in Motion.
+- Documented Overview, Reading Between the Regions, Contrasts and Head-to-Head: Countries.
+- Recorded the creator's confirmation of HTML Content KPI cards and HTML/CSS animated overlays.
+- Recorded the employer's colour-blindness simulator claim and marked implementation details as unverified.
+- No PBIX/source repository confirmed; no numerical benchmark score assigned.
+- Updated P2 progress to 45%; no personal project modified.
+
 ## 2026-11-13 — REF-011 Deneb Template Showcase study documented
 
 - Verified the public MIT-licensed InsightfulAnalytics/Deneb repository.
