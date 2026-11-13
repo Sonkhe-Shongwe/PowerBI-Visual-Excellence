@@ -29,6 +29,7 @@ A study should distinguish direct observation from inference. Do not claim techn
 - [OECD Global Well-being](oecd-global-wellbeing/README.md) — REF-006; description-led study documented, source and live inspection pending.
 - [Power BI Basketball Cards](powerbi-basketball-cards/README.md) — REF-009; screenshot- and walkthrough-led study documented, PBIX/source inspection pending.
 - [Deneb Template Showcase](deneb-template-showcase/README.md) — REF-011; source-level technical study documented, runtime rendering pending.
+- [Europe in Motion](europe-in-motion/README.md) — REF-007; description- and screenshot-led study documented, PBIX/source inspection pending.
 
 ## What we do not do
 
