@@ -2,6 +2,15 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-13 — REF-006 OECD Global Well-being study documented
+
+- Verified the official Microsoft announcement naming Jon Sandmann the 2025 Power BI DataViz World Champion.
+- Inspected the creator's Microsoft Fabric Community description of three well-being domains, dynamic SVG progress bars, anomaly-aware trends, country cross-filtering and a gender-disparity page using small multiples.
+- Recorded a related Reddit description of a six-metric weighted composite and sliders separately because it is not fully cross-validated against the creator's report description.
+- Recorded the Power BI embed token as evidence of a report embed reference; live rendering, PBIX and source access remain unverified.
+- Added five study documents and updated P2 progress to 30%.
+- No benchmark score assigned and no personal project modified.
+
 ## 2026-11-13 — REF-003 AstraVale SQL Health study documented
 
 - Verified the creator's Microsoft Fabric Community description and identified a public Power BI report URL from the creator's employer post.
