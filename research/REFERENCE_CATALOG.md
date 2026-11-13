@@ -58,28 +58,31 @@ A reference is a research candidate until it has been inspected. A public screen
 
 ### REF-005 — Sales and Returns sample
 
-- Official guide: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-sales-and-returns
-- The Microsoft sample documentation describes buttons, drillthrough, conditional formatting, what-if parameters and customised tooltips.
+- Official guide: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets
+- The official Microsoft sample catalogue lists a downloadable PBIX and describes buttons, drillthrough, conditional formatting, what-if parameters and customised tooltips.
 - Potential learning areas: report interactions and navigation patterns.
-- Confirm the current download link and inspect the PBIX before scoring.
+- Use the official sample catalogue to locate the current download and inspect the PBIX before scoring.
 
 ### REF-006 — OECD Global Well-being
 
 - Community source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winning-report---world-champion---oecd-global-well-being/4643676
+- The creator's post describes dynamic, colour-coordinated SVG progress bars, anomaly-detection trends, country cross-filtering, domain selection and small-multiple comparisons.
 - Candidate learning areas: country comparison, dynamic SVG, domain selection and analytical storytelling.
 - Status: source identified; verify report availability, author details, downloadable artefacts and reuse permissions during audit.
 
 ### REF-007 — Europe in Motion
 
 - Community source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/europe-in-motion-a-dynamic-portrait-of-how-regions-balance-social-and-environmen/4800387
-- Candidate learning areas: accessible data storytelling and visual explanation.
-- Status: source identified; verify report availability, author details, downloadable artefacts and reuse permissions during audit.
+- The report presents regional comparisons across social and environmental dimensions. The creator's community discussion describes animated HTML/CSS content over KPI cards and use of the HTML Content visual. An employer post identifies the report as the winning entry in the 2025 Vienna final and mentions a colour-blindness simulator.
+- Candidate learning areas: accessible data storytelling, dynamic KPI components, HTML/CSS and regional comparisons.
+- Status: public report reference verified; downloadable PBIX has not been confirmed.
 
 ### REF-008 — SQL Radar
 
-- Community source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/world-champs-bcn-26---finale---sql-radar-%C2%B7-find-the-signal-before-the-alarm/5372173
+- Community source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/bnc---finalist---sql-radar-%C2%B7-find-the-signal-before-the-alarm/5372173
 - Candidate learning areas: operational monitoring, timeline storytelling, maps and custom visual composition.
-- Status: source identified; verify attachment availability, creator details, visual dependencies and reuse permissions during audit.
+- The community post describes a three-page Signal / Diagnosis / Action report, native visuals for data and interactions, and HTML for a zooming map, animated timelines, identity cards and an intro. A 903 KB PBIX attachment is listed on the post.
+- Status: source page and attachment listing verified; download and licence still need checking.
 
 ## How to add a reference
 
