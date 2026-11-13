@@ -30,7 +30,7 @@ This project is about Power BI, not PilotODIN.
 
 - Repository existence, public visibility, default branch and write permissions were verified.
 - Foundation documentation, roadmap, research catalogue, audit template and QA guidance have been committed.
-- Initial reference shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
+- The reference catalogue contains ten candidates, including five high-priority references. P1 is complete.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
 - The description-led REF-003 study of AstraVale SQL Health is documented in five study files.
@@ -40,9 +40,10 @@ This project is about Power BI, not PilotODIN.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- P2 now contains five documented studies: two source-level, two description-led and one screenshot/walkthrough-led.
 - P2 progress is 35%; overall weighted progress is approximately 24%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
-- Overall weighted progress is 23%: P1 complete (15 weighted points) plus P2 at 30% (7.5 weighted points), rounded from 22.5%.
+- Overall weighted progress is 24%: P1 complete (15 weighted points) plus P2 at 35% (8.75 weighted points), rounded from 23.75%.
 - Current phase is P2. The next reference to investigate is REF-010 Deneb Power BI Example.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
