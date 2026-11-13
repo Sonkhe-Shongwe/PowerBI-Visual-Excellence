@@ -115,7 +115,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-006: OECD Global Well-being**. Verify the original report page, creator materials, report availability and any downloadable artefacts. Focus on the country-comparison narrative, composite scoring and interactive weighting described in public discussions. Clearly distinguish verified report behaviour from commentary and inference. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-009: Power BI Basketball Cards**. Review the official contest entry and creator walkthrough for native-visual interaction patterns: the flippable player card, visibility states, navigation and image-backed scatter plot. PBIX availability and exact implementation remain unconfirmed. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
 
 ---
 
