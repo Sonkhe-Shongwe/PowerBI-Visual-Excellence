@@ -1,10 +1,10 @@
 # Project Status
 
 **As of:** 2026-11-13  
-**Overall progress:** 25% (weighted estimate)  
+**Overall progress:** 26% (weighted estimate)  
 **Current phase:** P2 — Structural, visual and technical deconstruction
-**Current focus:** Next visual-storytelling reference, beginning with REF-007 Europe in Motion  
-**Project state:** Reference discovery gate complete; six studies documented, three source-level, two description-led and one screenshot/walkthrough-led
+**Current focus:** Next operational-monitoring reference, beginning with REF-008 SQL Radar  
+**Project state:** Reference discovery gate complete; seven studies documented, three source-level, three description-led and one screenshot/walkthrough-led
 
 ## Executive status
 
@@ -23,12 +23,12 @@ No personal project has been modified through this research workspace.
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
 | P1 — Reference discovery | 100% | Complete | Eleven references recorded; six high-priority candidates selected |
-| P2 — Structural, visual and technical deconstruction | 40% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003 and REF-006 description-led studies; REF-009 screenshot/walkthrough study documented |
+| P2 — Structural, visual and technical deconstruction | 45% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003, REF-006 and REF-007 description-led studies; REF-009 screenshot/walkthrough study documented |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
 | P5 — Validate, refine and document learning | 0% | Not started | No applied-pattern review |
 
-The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 10% from P2, or 25%.
+The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 11.25% from P2, or 26.25%, rounded to 26%.
 
 ## Verified starting points
 
@@ -44,6 +44,14 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
+
+## REF-007 study documents
+
+- [Study notes](reference-studies/europe-in-motion/STUDY_NOTES.md)
+- [Page architecture](reference-studies/europe-in-motion/PAGE_ARCHITECTURE.md)
+- [Visual system](reference-studies/europe-in-motion/VISUAL_SYSTEM.md)
+- [Technical notes](reference-studies/europe-in-motion/TECHNICAL_NOTES.md)
+- [Transferable patterns](reference-studies/europe-in-motion/TRANSFERABLE_PATTERNS.md)
 
 ## REF-011 study documents
 
@@ -100,8 +108,8 @@ P1 is complete: the catalogue now contains ten references, each with a source li
 
 ## Next action
 
-Begin the next visual-storytelling study with REF-007 Europe in Motion. Verify the official source, inspect available screenshots and report links, and focus on its information hierarchy, accessibility decisions, map/storytelling patterns and page sequence. Clearly distinguish observed visuals from claims in the creator's description.
+Begin the next operational-monitoring study with REF-008 SQL Radar. Verify the PBIX attachment reported on the original community page, inspect the report description and any screenshots, and document its page structure, operational KPIs, alerts, drilldown and decision flow. Check the licence and file availability before claiming source-level access.
 
-Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. AstraVale and OECD report links are recorded, but their live rendering remains unverified.
+Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. AstraVale, OECD and Europe in Motion report links are recorded, but their live rendering remains unverified.
 
-The goal is to broaden the visual design reference set, not to recreate the report.
+The goal is to compare different approaches to operational monitoring, not to recreate the report.
