@@ -88,10 +88,15 @@ A reference is a research candidate until it has been inspected. A public screen
 
 ### REF-007 — Europe in Motion
 
-- Community source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/europe-in-motion-a-dynamic-portrait-of-how-regions-balance-social-and-environmen/4800387
-- The report presents regional comparisons across social and environmental dimensions. The creator's community discussion describes animated HTML/CSS content over KPI cards and use of the HTML Content visual. An employer post identifies the report as the winning entry in the 2025 Vienna final and mentions a colour-blindness simulator.
-- Candidate learning areas: accessible data storytelling, dynamic KPI components, HTML/CSS and regional comparisons.
-- Status: public report reference verified; downloadable PBIX has not been confirmed.
+- Creator: Paulo Grijó.
+- Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/europe-in-motion-a-dynamic-portrait-of-how-regions-balance-social-and-environmen/4800387
+- Creator's LinkedIn entry: https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7363584628982456322/
+- Employer winner announcement: https://www.linkedin.com/posts/infosys-americas_our-colleague-paulo-grij%C3%B3-business-intelligence-activity-7389020198965788672-b9F9
+- The employer announcement confirms Paulo Grijó as the 2025 Power BI DataViz World Champion and says the winning solution included a colour-blindness simulator.
+- The creator describes four pages: Overview, Reading Between the Regions, Contrasts and Head-to-Head: Countries.
+- The creator confirms HTML Content for Overview KPI cards and HTML/CSS for animated text overlays. The report also uses a configurable scatter plot, DAX-powered country ranking and independent country filters.
+- Description- and screenshot-led study completed in reference-studies/europe-in-motion/.
+- PBIX/source status: the community thread contains an embed token, but no downloadable PBIX or source repository was confirmed. Full analytical-page rendering remains unverified.
 
 ### REF-008 — SQL Radar
 
