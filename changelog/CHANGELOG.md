@@ -2,6 +2,16 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-13 — REF-011 Deneb Template Showcase study documented
+
+- Verified the public MIT-licensed InsightfulAnalytics/Deneb repository.
+- Inspected 21 Vega/Vega-Lite templates, 21 preview images, 21 sample datasets, template READMEs, custom BI Nexus theme and automated validation assets.
+- Inspected the 22-page PBIP showcase and the 1600 × 900 KPI Dashboard 2015 layout with 12 Deneb visual components.
+- Analysed representative KPI Line Card, Bullet Chart, Calendar Heatmap, KPI Small Multiples and P&L Accounts Statement specifications.
+- Documented template data contracts, Deneb helper functions, responsive sizing and calculation placement trade-offs.
+- Recorded the P&L performance result as author-reported and not independently reproduced.
+- Updated P2 progress to 40%; no runtime benchmark score or personal project implementation claimed.
+
 ## 2026-11-13 — REF-009 Power BI Basketball Cards study documented
 
 - Verified the official Microsoft Week 3 winner announcement and creator's community entry.
