@@ -1,10 +1,10 @@
 # Documentation Index
 
-Use this file as the navigation hub for the project.
+Use this file as the navigation hub for the Power BI learning and design-research workspace.
 
 ## Project control
 
-- [README](README.md) — mission, scope, principles and repository overview.
+- [README](README.md) — mission, boundaries and working principles.
 - [Project roadmap](PROJECT_ROADMAP.md) — phases, weights, deliverables and exit criteria.
 - [Project status](PROJECT_STATUS.md) — current progress, evidence and blockers.
 - [Current session handoff](SESSION_HANDOFF_CURRENT.md) — continuity record for the next session.
@@ -12,24 +12,28 @@ Use this file as the navigation hub for the project.
 
 ## Research
 
-- [Reference catalogue](research/REFERENCE_CATALOG.md) — candidate dashboards and source verification.
+- [Reference catalogue](research/REFERENCE_CATALOG.md) — candidate reports and source verification.
 - [Benchmark scorecard](research/BENCHMARK_SCORECARD.md) — evaluation rubric and scoring rules.
 - [Sources and licences](research/SOURCES_AND_LICENCES.md) — source, reuse and attribution policy.
-- [Forensic audit template](research/FORENSIC_AUDIT_TEMPLATE.md) — repeatable reference inspection format.
+- [Reference study template](research/FORENSIC_AUDIT_TEMPLATE.md) — repeatable structural, visual and technical inspection format.
+
+## Reference studies
+
+- [Reference studies index](reference-studies/README.md) — how external reports are studied.
+- [The World of Peaches](reference-studies/world-of-peaches/README.md) — first proposed study.
 
 ## Design system
 
 - [Design principles](design-system/DESIGN_PRINCIPLES.md) — visual and usability standards.
-- [Design system workspace](design-system/README.md) — planned themes, tokens and reusable components.
-
-## Reconstructions
-
-- [Reconstruction index](reconstructions/README.md) — original implementation work.
-- [The World of Peaches audit workspace](reconstructions/world-of-peaches/README.md) — first planned deep dive.
+- [Design system workspace](design-system/README.md) — planned themes, tokens and reusable patterns.
 
 ## Techniques
 
 - [Techniques index](techniques/README.md) — DAX, SVG, HTML/CSS, Deneb, themes and interactions.
+
+## Application notes
+
+- [Application notes](application-notes/README.md) — how learning may transfer into the user's separate personal projects.
 
 ## Quality assurance
 
