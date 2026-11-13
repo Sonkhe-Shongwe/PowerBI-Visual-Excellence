@@ -115,7 +115,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-009: Power BI Basketball Cards**. Review the official contest entry and creator walkthrough for native-visual interaction patterns: the flippable player card, visibility states, navigation and image-backed scatter plot. PBIX availability and exact implementation remain unconfirmed. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-010: Deneb Power BI Example**. Review the public PBIX and README for Deneb/Vega-Lite specifications, custom chart encodings, tooltips, drillthrough and report-page tooltips. The repository has no LICENSE file, so treat its contents as study-only unless reuse permission is confirmed. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
 
 ---
 
