@@ -33,10 +33,13 @@ This project is about Power BI, not PilotODIN.
 - Initial reference shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
-- Both PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- The description-led REF-003 study of AstraVale SQL Health is documented in five study files.
+- The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
+- The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- P2 progress is 25%; overall weighted progress is approximately 21%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
 - Overall weighted progress is 20%: P1 complete (15 weighted points) plus P2 at 20% (5 weighted points).
-- Current phase is P2. The next reference to investigate is REF-003 AstraVale SQL Health.
+- Current phase is P2. The next reference to investigate is REF-006 OECD Global Well-being.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -59,6 +62,16 @@ The public repository README describes the report as a 2026 World Championship R
 Source: https://github.com/gusbavia/city-sustainability-scorecard
 
 The public repository declares an MIT licence and lists the full PBIX, 223 DAX measures in 14 folders, 74 HTML templates, 29 CSS files and TMDL model source. The current source tree contains six 1280 × 720 sections, 72 bookmark JSON definitions and one HTML Content custom visual package. The report's data is illustrative and embedded. The portfolio summary describes four analytical pages, while the PBIX source also includes a 10 Year Overview section.
+
+### AstraVale SQL Health
+
+Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/world-champion-winner---live-finale-build---astravale-sql-health-report-by-mariu/5373203
+
+Public Power BI report: https://app.powerbi.com/view?r=eyJrIjoiNjNhYzU4MDEtZDc3ZS00MTQ5LTk1YmEtODE2MjZkODkzOTk5IiwidCI6ImI2ZGEwOTc1LTEwY2EtNDE0ZS04YTZjLTE1ZjgzMzgxZGUzMiJ9
+
+The creator describes five stages: Overview, Problems, Causes, Connections and Action. The dataset covers 10 Azure SQL databases across 7 sites, eight metrics, warning/critical thresholds, equipment value, shared dependencies and health-check results. The public report URL could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/astravale-sql-health/.
 
 ### Power BI Basketball Cards
 
@@ -114,7 +127,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-003 AstraVale SQL Health as the third source-led study. Inspect the public report page and available images/links. Map the report's operational story from overview to problem diagnosis, root causes and recommended actions. Verify whether an interactive report or downloadable PBIX is accessible before claiming any deeper inspection.
+Begin REF-006 OECD Global Well-being as the fourth study. Verify the original source and report access, then inspect the composite scoring and user-adjustable weighting approach described in public discussions. Clearly separate observed report behaviour from commentary and inference.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
