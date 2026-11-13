@@ -99,6 +99,7 @@ These are candidates for study, not reports we intend to clone:
 - [Microsoft Power BI Desktop sample repository](https://github.com/microsoft/powerbi-desktop-samples) — official source repository for sample PBIX files and related resources.
 - [Power BI Basketball Cards](https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winner-of-week-3--power-bi-basketball-cards/4600448) — native-visual interaction design, flippable player cards and shot-location storytelling.
 - [Deneb Power BI Example](https://github.com/BruntBroccoli/Deneb-Power-BI-Example) — focused technical reference for Deneb/Vega-Lite, custom chart encodings, tooltips and drillthrough.
+- [Deneb Template Showcase](https://github.com/InsightfulAnalytics/Deneb) — MIT-licensed library of 21 reusable Vega/Vega-Lite templates with sample data, previews, automated validation and a PBIP showcase.
 
 The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, what is known, what remains unverified and what each report may teach us.
 
