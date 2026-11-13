@@ -31,9 +31,10 @@ This project is about Power BI, not PilotODIN.
 - Repository existence, public visibility, default branch and write permissions were verified.
 - Foundation documentation, roadmap, research catalogue, audit template and QA guidance have been committed.
 - Initial reference shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
-- The first recommended study is The World of Peaches.
-- No complete reference study has been performed.
-- No personal project has been modified through this research workspace.
+- The source-led REF-001 study of The World of Peaches is documented in five study files.
+- The PBIX has not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- No full dashboard recreation has been started.
+- No personal project has been modified.
 
 ## Research facts to preserve
 
@@ -62,18 +63,21 @@ Official sample repository: https://github.com/microsoft/powerbi-desktop-samples
 
 Microsoft's sample resources provide examples for studying report design and implementation. Each sample's own licensing and attribution conditions must be checked before reuse.
 
+## REF-001 source findings
+
+- Five sections: Welcome, Overview, Production, Trade and Tabular View.
+- All five sections specify a 1280 × 720 canvas; this is four analytical pages plus a Welcome/cover page.
+- The model contains Peach Production and Peach Trade fact tables with shared Countries and Year dimensions.
+- The report uses native Shape Map, slicers and Page Navigator elements alongside a custom HTML Content visual.
+- The theme contains named visual styles, action-button presets and page navigator styles.
+- Eight bookmark folders exist: Tutorial 1–4 and Close 1–4.
+- The creator's public process notes describe data audit, narrative brief, design system, wireframe/data mapping, CSS/theme tokens and isolated component development.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/world-of-peaches/.
+
 ## Immediate next session
 
-Perform a source-first study of The World of Peaches:
-1. Inspect the original repository tree and licence.
-2. Confirm which artefacts can be inspected.
-3. Open the PBIX in Power BI Desktop if available.
-4. Record page names, purposes, sequence and layout.
-5. Inspect the theme JSON and source organisation.
-6. Study representative DAX and HTML/CSS components.
-7. Explain the visual and structural decisions and what can be learned from them.
-8. Extract reusable patterns and possible applications to the user's own projects.
-9. Do not start a full report recreation.
+Open the original PBIX in Power BI Desktop and verify page navigation, Year/Continent filter behaviour, metric and view selectors, trade flow selection, tutorial overlays, map interactions, hover states, readability and accessibility. Record observed behaviour separately from source-level findings. Do not recreate the dashboard.
 
 ## Required end-of-session updates
 
