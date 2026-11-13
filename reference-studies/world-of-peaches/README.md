@@ -33,13 +33,13 @@ These are source-repository claims. They are not a substitute for inspecting the
 9. How are bookmarks, navigation and interactive states structured?
 10. Which decisions are useful principles that can transfer to other reports?
 
-## Planned study outputs
+## Study documents
 
-- STUDY_NOTES.md — evidence-backed findings and critical evaluation.
-- PAGE_ARCHITECTURE.md — page-by-page purpose and information structure.
-- VISUAL_SYSTEM.md — layout, typography, colour and component observations.
-- TECHNICAL_NOTES.md — theme, DAX, TMDL, HTML/CSS and interaction findings.
-- TRANSFERABLE_PATTERNS.md — reusable lessons and where they may be useful.
+- [STUDY_NOTES.md](STUDY_NOTES.md) — findings, evidence, critical evaluation and remaining gaps.
+- [PAGE_ARCHITECTURE.md](PAGE_ARCHITECTURE.md) — page purposes, visual inventory and layout coordinates.
+- [VISUAL_SYSTEM.md](VISUAL_SYSTEM.md) — palette, typography, layout, components, motion and accessibility.
+- [TECHNICAL_NOTES.md](TECHNICAL_NOTES.md) — semantic model, DAX, HTML/CSS, theme, bookmarks and data sources.
+- [TRANSFERABLE_PATTERNS.md](TRANSFERABLE_PATTERNS.md) — lessons that can inform original projects.
 
 ## Study procedure
 
