@@ -23,7 +23,7 @@ A study should distinguish direct observation from inference. Do not claim techn
 
 ## Current studies
 
-- [The World of Peaches](world-of-peaches/README.md) — first planned study.
+- [The World of Peaches](world-of-peaches/README.md) — first structured study; source-level findings documented, runtime inspection pending.
 
 ## What we do not do
 
