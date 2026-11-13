@@ -12,11 +12,11 @@ The objective is to understand excellent Power BI work and transfer the stronges
 | Phase | Weight | Current progress | Weighted contribution | Gate |
 |---|---:|---:|---:|---|
 | P1 — Reference discovery | 15% | 100% | 15% | A varied, sourced and prioritised reference set exists |
-| P2 — Structural, visual and technical deconstruction | 25% | 40% | 10% | Selected reports have evidence-backed studies |
+| P2 — Structural, visual and technical deconstruction | 25% | 45% | 11.25% | Selected reports have evidence-backed studies |
 | P3 — Pattern extraction and design system | 25% | 0% | 0% | Transferable principles, patterns and technique notes are documented |
 | P4 — Apply lessons to personal projects | 25% | 0% | 0% | User-selected lessons are applied in the user's own project repositories |
 | P5 — Validate, refine and document learning | 10% | 0% | 0% | Applied patterns are reviewed and lessons captured |
-| **Total** | **100%** |  | **25%** | **Overall progress: 25%** |
+| **Total** | **100%** |  | **26.25%** | **Overall progress: approximately 26%** |
 
 Progress is rounded to the nearest whole percentage in the status summary. Phase weights are provisional and may be revised with a documented reason.
 
@@ -37,7 +37,7 @@ Exit criteria:
 - At least 5 high-priority references selected for deeper study.
 - No reference receives a final score before an adequate study.
 
-**Status:** Exit criteria met on 2026-11-13. The catalogue now contains eleven references, with six marked high priority. The priority labels select learning candidates; they are not quality scores.
+**Status:** Exit criteria met on 2026-11-13. The catalogue now contains eleven references, with seven marked high priority. The priority labels select learning candidates; they are not quality scores.
 
 ## P2 — Structural, visual and technical deconstruction
 
