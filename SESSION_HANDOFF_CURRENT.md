@@ -38,14 +38,15 @@ This project is about Power BI, not PilotODIN.
 - The screenshot- and walkthrough-led REF-009 study of Power BI Basketball Cards is documented in five study files.
 - The official screenshot and creator walkthrough show a native-visual player card and shot-chart interaction; PBIX/source access remains unconfirmed.
 - The source-level REF-011 Deneb Template Showcase study is documented in six study files. Its MIT-licensed repository contains 21 Vega/Vega-Lite templates, sample data, previews, a custom theme and a 22-page PBIP showcase.
+- The description- and screenshot-led REF-007 Europe in Motion study is documented in five study files. The creator describes four pages and confirms HTML Content KPI cards and HTML/CSS animated overlays; the employer says the winning report included a colour-blindness simulator. PBIX/source access remains unconfirmed.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
 - P2 now contains five documented studies: two source-level, two description-led and one screenshot/walkthrough-led.
-- P2 progress is 40%; overall weighted progress is 25%.
+- P2 progress is 45%; overall weighted progress is approximately 26%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
 - Overall weighted progress is 24%: P1 complete (15 weighted points) plus P2 at 35% (8.75 weighted points), rounded from 23.75%.
-- Current phase is P2. The next reference to investigate is REF-007 Europe in Motion.
+- Current phase is P2. The next reference to investigate is REF-008 SQL Radar.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -101,6 +102,16 @@ The creator says the report uses core Power BI visuals only. The walkthrough des
 
 Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/powerbi-basketball-cards/.
 
+### Europe in Motion
+
+Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/europe-in-motion-a-dynamic-portrait-of-how-regions-balance-social-and-environmen/4800387
+
+Winner announcement: https://www.linkedin.com/posts/infosys-americas_our-colleague-paulo-grij%C3%B3-business-intelligence-activity-7389020198965788672-b9F9
+
+The creator describes four pages: Overview, Reading Between the Regions, Contrasts and Head-to-Head: Countries. He confirms HTML Content for KPI cards and HTML/CSS animated overlays. The employer says the winning presentation included a colour-blindness simulator. No downloadable PBIX or source repository was confirmed.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/europe-in-motion/.
+
 ### Deneb Template Showcase
 
 Source: https://github.com/InsightfulAnalytics/Deneb
@@ -151,7 +162,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-007 Europe in Motion as the next visual-storytelling study. Verify the original source and inspect available screenshots, page structure, visual hierarchy, map/storytelling patterns and accessibility claims. Keep source-derived facts separate from our own visual interpretation.
+Begin REF-008 SQL Radar as the next operational-monitoring study. Verify the reported PBIX attachment, inspect the source page and any screenshots, and map the report's operational KPI, alert and investigation flow. Confirm file and licence availability before claiming source-level access.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
