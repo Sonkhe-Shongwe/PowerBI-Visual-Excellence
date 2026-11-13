@@ -1,97 +1,120 @@
 # Power BI Visual Excellence
 
-> Research, reverse-engineer, design and build exceptional Power BI reports through evidence-led visual engineering.
+> Study exceptional Power BI reports. Understand their structure, design and engineering. Apply the lessons to original personal projects.
 
 **Owner:** [Sonkhe-Shongwe](https://github.com/Sonkhe-Shongwe)  
 **Repository:** [PowerBI-Visual-Excellence](https://github.com/Sonkhe-Shongwe/PowerBI-Visual-Excellence)  
-**Status:** Foundation established · Research and discovery in progress  
+**Status:** Research foundation established · Reference studies in progress  
 **Last updated:** 2026-11-13
 
 ## Mission
 
-Build a durable research and engineering programme for creating polished, professional, portfolio-grade Power BI reports.
+This repository is a **learning, research and design-reference workspace**.
 
-We will study outstanding real-world reports, inspect downloadable Power BI Desktop files and Power BI Project sources where available, deconstruct their visual systems and implementation techniques, and apply the strongest ideas to original reports.
+We study high-quality Power BI reports to understand how skilled developers:
+- Structure report pages and organise information.
+- Establish visual hierarchy, layout grids, spacing and composition.
+- Choose typography, colour systems, chart styles and visual treatments.
+- Build reusable components, themes and design systems.
+- Use DAX, Power Query, SVG, HTML/CSS, Deneb and custom visuals.
+- Design navigation, bookmarks, tooltips, drillthrough and other interactions.
+- Balance visual polish with analytical clarity, accessibility and maintainability.
 
-The goal is not to copy a screenshot blindly. The goal is to understand **why a report works, how it was built, what can be reproduced responsibly, and how to improve the result for a real business audience.**
+We then extract the most useful principles, patterns and techniques into a knowledge base that can inform **the user's own personal Power BI projects**.
 
-## Scope
+## The important distinction
 
-- Visual research and reference benchmarking.
-- Report layout, composition, spacing and information hierarchy.
-- Typography, colour systems, themes and reusable design tokens.
-- Native Power BI visuals and advanced visual techniques.
-- DAX patterns for dynamic titles, formatting, SVG and HTML-driven elements.
-- Deneb / Vega-Lite and other custom visuals where justified.
-- Navigation, bookmarks, drillthrough, tooltips, slicers and interactions.
-- Accessibility, readability, performance and quality assurance.
-- Original dashboard reconstruction and portfolio development.
+External dashboards are our **case studies and learning material**. They are not the projects we are trying to deliver.
 
-**Scope distinction:** Our main build target is Power BI Desktop reports (PBIX, and PBIP when useful). A Power BI report can contain multiple interactive pages. A Power BI Service dashboard is a different, single-canvas artefact made from pinned tiles. We may study both, but we will label them correctly.
+Our primary outcomes are:
+1. A strong understanding of professional Power BI report structure and visual design.
+2. A practical library of reusable design principles, techniques and component patterns.
+3. Better original work in the user's separate personal project repositories.
+
+We are **not** trying to clone championship dashboards, recreate other creators' full reports, or turn this repository into a collection of copied dashboards.
+
+A small, isolated proof-of-concept may be useful when a technique is difficult to understand from inspection alone. Such experiments are learning exercises, not the main deliverable, and should only be undertaken when they serve a clear learning objective.
+
+## What belongs in this repository
+
+- Reference catalogue and original source links.
+- Structural, visual and technical studies of selected reports.
+- Page architecture and component inventories.
+- Design principles, design tokens and reusable pattern specifications.
+- Notes and examples explaining Power BI techniques.
+- Learning-to-application notes that can guide work in the user's own projects.
+
+## What does not belong here by default
+
+- Copies of other creators' full PBIX files or assets.
+- Full recreations of external dashboards as an end in themselves.
+- The source files and deliverables of the user's separate personal projects.
+- Unverified claims that a report, technique or component has been inspected or tested.
+
+The user's personal projects remain in their own repositories and retain their own goals, scope and development plans. This repository supports those projects; it does not replace them.
 
 ## Working principles
 
-1. **Evidence before opinion.** Every reference has a source link and a recorded inspection status.
-2. **Design before formatting.** Establish page purpose, hierarchy and layout before styling individual visuals.
-3. **Native-first, not native-only.** Prefer maintainable native features; introduce SVG, HTML, Deneb or custom visuals when they solve a real design or analytical problem.
-4. **Reproduce responsibly.** Learn from public work, respect licences and attribution, and do not redistribute assets or PBIX files without permission.
-5. **Separate appearance from usability.** A visually impressive report must still be understandable, accessible and useful.
-6. **Test every interaction.** Screenshots alone cannot prove that filters, bookmarks, drillthrough or tooltips work.
-7. **Document decisions and failures.** The repository is the source of truth for project continuity.
-8. **No unsupported completion claims.** A phase or deliverable is complete only when its acceptance evidence exists.
+1. **Study before building.** Understand the design and structure before attempting to implement a pattern.
+2. **Evidence before opinion.** Record what is visible or verifiable and label inferences.
+3. **Understand the why.** Explain why a layout, visual, interaction or technique works, not merely what it looks like.
+4. **Extract, do not blindly copy.** Convert observations into reusable principles that can be adapted to different business contexts.
+5. **Personal projects are the destination.** Apply useful lessons to the user's own work, in the correct project repository.
+6. **Native-first, not native-only.** Understand native Power BI capabilities and advanced options, choosing the simplest maintainable approach.
+7. **Respect creators and licences.** Link to original work and verify rights before adapting code or assets.
+8. **No unsupported completion claims.** A study or technique is complete only when its evidence and findings are recorded.
 
 ## Roadmap at a glance
 
 | Phase | Focus | Status |
 |---|---|---|
-| P1 | Research and discovery | In progress |
-| P2 | Forensic design analysis | Pending |
-| P3 | Reusable design system | Pending |
-| P4 | Dashboard reconstruction | Pending |
-| P5 | Visual and functional QA | Pending |
-| P6 | Original portfolio-grade report | Pending |
+| P1 | Reference discovery | In progress |
+| P2 | Structural, visual and technical deconstruction | Pending |
+| P3 | Pattern extraction and design system | Pending |
+| P4 | Apply lessons to personal projects | Pending |
+| P5 | Validate, refine and document learning | Pending |
 
 See [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md) and [PROJECT_STATUS.md](PROJECT_STATUS.md) for progress, gates and evidence.
 
 ## Repository map
 
-- **research/** — reference catalogue, audits and scoring.
-- **design-system/** — design principles, themes and reusable patterns.
-- **reconstructions/** — reference-specific analysis and original rebuilds.
-- **techniques/** — DAX, SVG, HTML/CSS, Deneb and interaction notes.
-- **quality-assurance/** — visual acceptance and functional test records.
-- **changelog/** — chronological project history.
+- **research/** — reference catalogue, audit templates, source checks and scoring.
+- **reference-studies/** — structured studies of external reports.
+- **design-system/** — extracted principles, tokens and reusable pattern specifications.
+- **techniques/** — notes and focused examples for Power BI implementation techniques.
+- **application-notes/** — links and notes explaining how lessons may transfer to the user's own projects.
+- **quality-assurance/** — review criteria for evaluating patterns and their application.
+- **changelog/** — chronological record of material changes.
 
-See [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) for the full navigation guide.
+See [DOCUMENTATION_INDEX.md](DOCUMENTATION_INDEX.md) for the navigation guide.
 
-## First research references
+## Initial reference shortlist
 
-These are initial candidates, not endorsements or completed audits:
+These are candidates for study, not reports we intend to clone:
 
-- [The World of Peaches](https://github.com/gusbavia/the-world-of-peaches) — public MIT-licensed project with PBIX, TMDL source, DAX measures and HTML/CSS components.
-- [City Sustainability Scorecard](https://github.com/gusbavia/city-sustainability-scorecard) — public MIT-licensed project with PBIX, TMDL source, DAX measures and HTML components.
-- [AstraVale SQL Health](https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/world-champion-winner---live-finale-build---astravale-sql-health-report-by-mariu/5373203) — 2026 Power BI DataViz World Championship finale-winning report; public report inspection is available.
+- [The World of Peaches](https://github.com/gusbavia/the-world-of-peaches) — public source repository with PBIX, TMDL, DAX, HTML/CSS and theme resources.
+- [City Sustainability Scorecard](https://github.com/gusbavia/city-sustainability-scorecard) — public source repository with PBIX, TMDL, DAX and HTML component resources.
+- [AstraVale SQL Health](https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/world-champion-winner---live-finale-build---astravale-sql-health-report-by-mariu/5373203) — 2026 Power BI DataViz World Championship finale-winning report.
 - [Microsoft Power BI samples](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets) — official sample reports and downloadable files.
 - [Microsoft Power BI Desktop sample repository](https://github.com/microsoft/powerbi-desktop-samples) — official source repository for sample PBIX files and related resources.
 
-The [reference catalogue](research/REFERENCE_CATALOG.md) records what is known, what remains unverified and what each reference may teach us.
+The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, what is known, what remains unverified and what each report may teach us.
 
-## How we work
+## How we study a reference
 
-Each research item follows this sequence:
-
-1. Find and cite the original source.
-2. Verify what is actually available: live report, PBIX, PBIP, screenshots, source code, theme or documentation.
-3. Inspect the report and record evidence.
-4. Score it using the shared rubric only after inspection.
-5. Extract reusable design and implementation patterns.
-6. Build an original implementation with a clearly stated scope.
-7. Compare, test and document the result.
+1. Locate and cite the original creator or official source.
+2. Verify what can actually be inspected: live report, PBIX, PBIP, screenshots, source code, theme or documentation.
+3. Map the report's page structure, purpose, layout and information hierarchy.
+4. Inspect visual choices, interactions and technical implementation where evidence is available.
+5. Explain the design decisions and identify strengths, weaknesses and trade-offs.
+6. Extract transferable principles and patterns.
+7. Record where those lessons could improve the user's own projects.
+8. Build a small experiment only when necessary to understand a specific technique.
 
 ## Current next action
 
-Begin the forensic review of **The World of Peaches**. Verify the available files and licence, inspect the report pages and theme/source structure, then record page-level layout and component findings before attempting a reconstruction.
+Begin the first structured study of **The World of Peaches**. Understand its page architecture, visual system, component organisation and implementation approach. The output is a clear learning report and a list of transferable patterns, not a cloned dashboard.
 
 ---
 
-This repository documents learning and original implementation work. External projects remain the property of their respective creators and are linked for research and attribution.
+External projects remain the property of their respective creators and are linked for research and attribution.
