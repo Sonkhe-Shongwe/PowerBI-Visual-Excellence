@@ -1,10 +1,10 @@
 # Project Status
 
 **As of:** 2026-11-13  
-**Overall progress:** 21% (weighted estimate)  
+**Overall progress:** 23% (weighted estimate)  
 **Current phase:** P2 — Structural, visual and technical deconstruction
-**Current focus:** Fourth reference study, beginning with REF-006 OECD Global Well-being  
-**Project state:** Reference discovery gate complete; three reference studies documented, two source-level and one description-led
+**Current focus:** Fifth high-priority study, beginning with REF-009 Power BI Basketball Cards  
+**Project state:** Reference discovery gate complete; four reference studies documented, two source-level and two description-led
 
 ## Executive status
 
@@ -12,7 +12,7 @@ This repository is a Power BI learning and design-research workspace. Its purpos
 
 The external reports are case studies, not the deliverables we are trying to recreate. The user's personal projects remain in their own repositories.
 
-The initial project documentation and research structure have been committed. Two source-level studies are documented: The World of Peaches and City Sustainability Scorecard. A third description-led study, AstraVale SQL Health, documents the creator-described five-page operational decision journey and dataset. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
+The initial project documentation and research structure have been committed. Two source-level studies are documented: The World of Peaches and City Sustainability Scorecard. A third and fourth description-led study, AstraVale SQL Health and OECD Global Well-being, document creator-described report architecture and interactions. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
 
 The first two public repositories and declared MIT licences were checked; their report definitions, selected visual configurations, TMDL, DAX and component source were inspected. Their PBIX files have not been opened in Power BI Desktop. AstraVale's public Power BI link was identified but could not be rendered in the available browsing interface; no PBIX or source repository was confirmed. Runtime interactions, performance, service rendering and accessibility therefore remain unverified.
 
@@ -23,12 +23,12 @@ No personal project has been modified through this research workspace.
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
 | P1 — Reference discovery | 100% | Complete | Ten references recorded; five high-priority candidates selected |
-| P2 — Structural, visual and technical deconstruction | 25% | In progress | REF-001 and REF-002 source-level studies plus REF-003 description-led study documented |
+| P2 — Structural, visual and technical deconstruction | 30% | In progress | REF-001 and REF-002 source-level studies plus REF-003 and REF-006 description-led studies documented |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
 | P5 — Validate, refine and document learning | 0% | Not started | No applied-pattern review |
 
-The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 6.25% from P2, or 21.25%, rounded to 21%.
+The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 7.5% from P2, or 22.5%, rounded to 23%.
 
 ## Verified starting points
 
@@ -42,6 +42,14 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
+
+## REF-006 study documents
+
+- [Study notes](reference-studies/oecd-global-wellbeing/STUDY_NOTES.md)
+- [Page architecture](reference-studies/oecd-global-wellbeing/PAGE_ARCHITECTURE.md)
+- [Visual system](reference-studies/oecd-global-wellbeing/VISUAL_SYSTEM.md)
+- [Technical notes](reference-studies/oecd-global-wellbeing/TECHNICAL_NOTES.md)
+- [Transferable patterns](reference-studies/oecd-global-wellbeing/TRANSFERABLE_PATTERNS.md)
 
 ## REF-003 study documents
 
@@ -74,8 +82,8 @@ P1 is complete: the catalogue now contains ten references, each with a source li
 
 ## Next action
 
-Begin the fourth reference study with REF-006 OECD Global Well-being. Verify the original report page, creator materials, report availability and any downloadable artefacts. Focus on the country-comparison narrative, composite scoring and interactive weighting described in public discussions. Do not assume a PBIX or source code exists until confirmed.
+Begin the fifth high-priority study with REF-009 Power BI Basketball Cards. Review the official contest entry and creator walkthrough for native-visual interaction patterns: the flippable card, visibility states, navigation and image-backed scatter plot. PBIX availability and exact implementation remain unconfirmed.
 
-Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. AstraVale's public Power BI URL is recorded, but its live rendering remains unverified.
+Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available. AstraVale and OECD report links are recorded, but their live rendering remains unverified.
 
-The goal is to broaden our understanding of decision-oriented and data-storytelling dashboards, not to recreate them.
+The goal is to understand a native-only approach to advanced interactions, not to recreate the report.
