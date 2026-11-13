@@ -40,7 +40,7 @@ This project is about Power BI, not PilotODIN.
 - The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
 - P2 progress is 30%; overall weighted progress is approximately 23%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
-- Overall weighted progress is 20%: P1 complete (15 weighted points) plus P2 at 20% (5 weighted points).
+- Overall weighted progress is 23%: P1 complete (15 weighted points) plus P2 at 30% (7.5 weighted points), rounded from 22.5%.
 - Current phase is P2. The next reference to investigate is REF-009 Power BI Basketball Cards.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
@@ -52,12 +52,6 @@ This project is about Power BI, not PilotODIN.
 Source: https://github.com/gusbavia/the-world-of-peaches
 
 The public repository README describes this as the 2026 Power BI World Championship winning report. It lists a PBIX, 45 DAX measures, 17 HTML/CSS component templates, TMDL semantic-model source, report layout/bookmarks and a theme JSON. The repository declares an MIT licence.
-
-### City Sustainability Scorecard
-
-Source: https://github.com/gusbavia/city-sustainability-scorecard
-
-The public repository README describes the report as a 2026 World Championship Round I entry. It lists a PBIX, 223 DAX measures, 74 HTML components, TMDL model source, report layout/bookmarks and a theme. The repository declares an MIT licence.
 
 ### City Sustainability Scorecard
 
@@ -98,12 +92,6 @@ The 2025 Week 3 winner uses native Power BI visuals for a flippable player card,
 Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
 
 The public repository contains a PBIX and README describing Deneb donut and bar visuals, tooltips and drillthrough. No LICENSE file was found in the inspected repository tree.
-
-### AstraVale SQL Health
-
-Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/world-champion-winner---live-finale-build---astravale-sql-health-report-by-mariu/5373203
-
-The Microsoft Fabric Community post identifies it as the 2026 Power BI DataViz World Championship finale winner and describes a report journey from overview through problems and causes to recommended actions. PBIX availability has not been confirmed.
 
 ### Microsoft samples
 
