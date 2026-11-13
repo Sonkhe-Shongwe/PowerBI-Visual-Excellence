@@ -26,6 +26,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/world-of-peaches/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/world-of-peaches/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/world-of-peaches/TRANSFERABLE_PATTERNS.md)
+- [City Sustainability Scorecard](reference-studies/city-sustainability-scorecard/README.md) — REF-002 study index.
+  - [Study notes](reference-studies/city-sustainability-scorecard/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/city-sustainability-scorecard/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/city-sustainability-scorecard/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/city-sustainability-scorecard/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/city-sustainability-scorecard/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
