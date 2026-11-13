@@ -35,13 +35,15 @@ This project is about Power BI, not PilotODIN.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
 - The description-led REF-003 study of AstraVale SQL Health is documented in five study files.
 - The description-led REF-006 study of OECD Global Well-being is documented in five study files.
+- The screenshot- and walkthrough-led REF-009 study of Power BI Basketball Cards is documented in five study files.
+- The official screenshot and creator walkthrough show a native-visual player card and shot-chart interaction; PBIX/source access remains unconfirmed.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
-- P2 progress is 30%; overall weighted progress is approximately 23%.
+- P2 progress is 35%; overall weighted progress is approximately 24%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
 - Overall weighted progress is 23%: P1 complete (15 weighted points) plus P2 at 30% (7.5 weighted points), rounded from 22.5%.
-- Current phase is P2. The next reference to investigate is REF-009 Power BI Basketball Cards.
+- Current phase is P2. The next reference to investigate is REF-010 Deneb Power BI Example.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -87,6 +89,16 @@ Creator walkthrough: https://www.linkedin.com/posts/injae-park_powerbi-dashboard
 
 The 2025 Week 3 winner uses native Power BI visuals for a flippable player card, navigation and a shot-location view. PBIX availability has not been confirmed.
 
+### Power BI Basketball Cards
+
+Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winner-of-week-3--power-bi-basketball-cards/4600448
+
+Creator walkthrough: https://www.linkedin.com/posts/injae-park_powerbi-dashboarddesign-sportsanalytics-activity-7345811931527589888-DF7M
+
+The creator says the report uses core Power BI visuals only. The walkthrough describes a button/list slicer, two card measures for front/back content, layout visibility to show one side at a time, and a scatter plot layered over a half-court image using X/Y shot coordinates. The published screenshot shows a player list, player card, KPI comparisons and shot chart. No PBIX download was confirmed.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/powerbi-basketball-cards/.
+
 ### Deneb Power BI Example
 
 Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
@@ -127,7 +139,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-009 Power BI Basketball Cards as the fifth high-priority study. Review the official contest entry and creator walkthrough for the native-visual flippable card, state switching, navigation and shot-location scatter plot. Confirm what is actually shown in the walkthrough and keep PBIX/source access unverified unless located.
+Begin REF-010 Deneb Power BI Example as the next technical reference. Inspect its PBIX listing and README, then document the Deneb chart examples, tooltips, drillthrough and report-page tooltip patterns. No licence file was found, so do not reuse its code or assets without permission.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
