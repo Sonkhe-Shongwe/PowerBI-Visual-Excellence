@@ -115,7 +115,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-003: AstraVale SQL Health**. Study its operational dashboard structure, problem-diagnosis flow, visual hierarchy and decision-oriented recommendations using the public evidence available. Verify PBIX and live-report access before claiming runtime inspection. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-006: OECD Global Well-being**. Verify the original report page, creator materials, report availability and any downloadable artefacts. Focus on the country-comparison narrative, composite scoring and interactive weighting described in public discussions. Clearly distinguish verified report behaviour from commentary and inference. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
 
 ---
 
