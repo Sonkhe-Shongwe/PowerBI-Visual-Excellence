@@ -1,10 +1,10 @@
 # Project Status
 
 **As of:** 2026-11-13  
-**Overall progress:** 7% (weighted estimate)  
-**Current phase:** P1 — Reference discovery
-**Current focus:** REF-002 source-led study documented; REF-001 and REF-002 runtime validation pending  
-**Project state:** Research foundation established; two source-level reference studies documented
+**Overall progress:** 20% (weighted estimate)  
+**Current phase:** P2 — Structural, visual and technical deconstruction
+**Current focus:** Third reference study, beginning with REF-003 AstraVale SQL Health  
+**Project state:** Reference discovery gate complete; two source-level reference studies documented
 
 ## Executive status
 
@@ -22,13 +22,13 @@ No personal project has been modified through this research workspace.
 
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
-| P1 — Reference discovery | 15% | In progress | Eight initial references recorded; 10-reference and prioritisation gates remain |
+| P1 — Reference discovery | 100% | Complete | Ten references recorded; five high-priority candidates selected |
 | P2 — Structural, visual and technical deconstruction | 20% | In progress | REF-001 and REF-002 source-level studies documented; runtime validation pending |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
 | P5 — Validate, refine and document learning | 0% | Not started | No applied-pattern review |
 
-The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 2.25% from P1 plus 5% from P2, or 7.25%, rounded to 7%.
+The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 5% from P2, or 20%.
 
 ## Verified starting points
 
@@ -36,6 +36,8 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 |---|---|---|
 | The World of Peaches | Public source repository and MIT licence verified; five 1280 × 720 sections, visual configuration, theme, TMDL, DAX and HTML/CSS inspected | Open PBIX in Power BI Desktop; test interactions, accessibility and rendering |
 | City Sustainability Scorecard | Public repository and MIT licence verified; six 1280 × 720 sections, 223 DAX files, 74 HTML templates, 29 CSS files, TMDL and selected visual configurations inspected | Open PBIX in Power BI Desktop; verify all six pages, field parameter, interactions and accessibility |
+| Power BI Basketball Cards | 2025 Week 3 winner; creator walkthrough describes native-visual flippable cards, navigation and a shot-location chart | Locate PBIX or inspect the public walkthrough and report interaction details |
+| Deneb Power BI Example | Public PBIX and README; Deneb donut, dynamic-marker bar, tooltips and drillthrough documented; no licence file found | Study Vega-Lite specs in the PBIX if opened; keep reuse permissions unassumed |
 | AstraVale SQL Health | Public Microsoft Fabric Community championship report page and public report link | Inspect report structure and confirm PBIX/source availability |
 | Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
@@ -49,6 +51,10 @@ See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 - [Technical notes](reference-studies/city-sustainability-scorecard/TECHNICAL_NOTES.md)
 - [Transferable patterns](reference-studies/city-sustainability-scorecard/TRANSFERABLE_PATTERNS.md)
 
+## Reference discovery gate
+
+P1 is complete: the catalogue now contains ten references, each with a source link and verification status, and five high-priority candidates have been selected. Priority labels are study sequencing, not benchmark scores.
+
 ## Current boundaries
 
 - Do not clone an external report as the default next step.
@@ -59,6 +65,10 @@ See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 - Use isolated experiments only when they answer a specific technical learning question.
 
 ## Next action
+
+Begin the third reference study with REF-003 AstraVale SQL Health. Establish the report's page sequence, information hierarchy, visual types, operational monitoring patterns and decision flow from the public source. Do not assume PBIX or source-code access until verified.
+
+Runtime inspection of REF-001 and REF-002 remains a separate user-side option when Power BI Desktop is available.
 
 Complete runtime inspection of REF-001 in Power BI Desktop:
 1. Open the PBIX.
