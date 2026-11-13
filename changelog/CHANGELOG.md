@@ -2,6 +2,16 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-13 — REF-009 Power BI Basketball Cards study documented
+
+- Verified the official Microsoft Week 3 winner announcement and creator's community entry.
+- Inspected the creator's walkthrough transcript and a published report screenshot.
+- Documented the native-visual approach: button/list slicer navigation, front/back card measures, layout visibility and a scatter plot layered over a half-court image using X/Y coordinates.
+- Recorded the 2022–2023 NBA data context and the creator's statement that no custom visual add-ons were used.
+- Recorded community feedback about clean navigation and an image-cropping issue.
+- PBIX/source availability remains unconfirmed; no benchmark score assigned.
+- Updated P2 progress to 35%; no personal project modified.
+
 ## 2026-11-13 — REF-006 OECD Global Well-being study documented
 
 - Verified the official Microsoft announcement naming Jon Sandmann the 2025 Power BI DataViz World Champion.
