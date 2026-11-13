@@ -32,7 +32,10 @@ This project is about Power BI, not PilotODIN.
 - Foundation documentation, roadmap, research catalogue, audit template and QA guidance have been committed.
 - Initial reference shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
-- The PBIX has not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
+- Both PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
+- P1 has eight initial references; the 10-reference discovery gate remains open.
+- Overall weighted progress is approximately 7%.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -49,6 +52,12 @@ The public repository README describes this as the 2026 Power BI World Champions
 Source: https://github.com/gusbavia/city-sustainability-scorecard
 
 The public repository README describes the report as a 2026 World Championship Round I entry. It lists a PBIX, 223 DAX measures, 74 HTML components, TMDL model source, report layout/bookmarks and a theme. The repository declares an MIT licence.
+
+### City Sustainability Scorecard
+
+Source: https://github.com/gusbavia/city-sustainability-scorecard
+
+The public repository declares an MIT licence and lists the full PBIX, 223 DAX measures in 14 folders, 74 HTML templates, 29 CSS files and TMDL model source. The current source tree contains six 1280 × 720 sections, 72 bookmark JSON definitions and one HTML Content custom visual package. The report's data is illustrative and embedded. The portfolio summary describes four analytical pages, while the PBIX source also includes a 10 Year Overview section.
 
 ### AstraVale SQL Health
 
@@ -75,9 +84,22 @@ Microsoft's sample resources provide examples for studying report design and imp
 
 Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/world-of-peaches/.
 
+## REF-002 source findings
+
+- Six sections: Welcome, Executive Summary, Performance, Ranking, Temporal Analysis and 10 Year Overview.
+- All six sections specify a 1280 × 720 canvas.
+- The model contains City Metrics, City Lookup, City Slicer, Page Parameter, Parameter and _Measures tables.
+- The Parameter table is a native field parameter using NAMEOF references to five measures.
+- The report combines native clustered bar charts, line charts and tables with HTML Content components, including a DAX-generated SVG radar chart.
+- DAX is organised into 14 folders; the repository contains 223 DAX files, 74 HTML templates, 29 CSS files and 72 bookmark definitions.
+- Five analytical page roles cover executive summary, performance, ranking, temporal analysis and a 10-year historical view.
+- The source includes 24 alt-text measures and tab-order settings, but live accessibility remains untested.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/city-sustainability-scorecard/.
+
 ## Immediate next session
 
-Open the original PBIX in Power BI Desktop and verify page navigation, Year/Continent filter behaviour, metric and view selectors, trade flow selection, tutorial overlays, map interactions, hover states, readability and accessibility. Record observed behaviour separately from source-level findings. Do not recreate the dashboard.
+Continue P1 reference discovery by adding two varied candidates to reach the 10-reference catalogue gate. Then prioritise at least five references for deeper study. Do not begin a full dashboard recreation. Runtime inspection of either PBIX can be done later if the user opens Power BI Desktop.
 
 ## Required end-of-session updates
 
