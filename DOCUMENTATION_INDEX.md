@@ -44,6 +44,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/oecd-global-wellbeing/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/oecd-global-wellbeing/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/oecd-global-wellbeing/TRANSFERABLE_PATTERNS.md)
+- [Power BI Basketball Cards](reference-studies/powerbi-basketball-cards/README.md) — REF-009 study index.
+  - [Study notes](reference-studies/powerbi-basketball-cards/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/powerbi-basketball-cards/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/powerbi-basketball-cards/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/powerbi-basketball-cards/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/powerbi-basketball-cards/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
