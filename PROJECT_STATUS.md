@@ -12,7 +12,7 @@ This repository is a Power BI learning and design-research workspace. Its purpos
 
 The external reports are case studies, not the deliverables we are trying to recreate. The user's personal projects remain in their own repositories.
 
-The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Two description-led studies, AstraVale SQL Health and OECD Global Well-being, and one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
+The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Three description-led studies, AstraVale SQL Health, OECD Global Well-being and Europe in Motion, and one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
 
 The first two public repositories and declared MIT licences were checked; their report definitions, selected visual configurations, TMDL, DAX and component source were inspected. Their PBIX files have not been opened in Power BI Desktop. AstraVale's public Power BI link was identified but could not be rendered in the available browsing interface; no PBIX or source repository was confirmed. Runtime interactions, performance, service rendering and accessibility therefore remain unverified.
 
@@ -22,7 +22,7 @@ No personal project has been modified through this research workspace.
 
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
-| P1 — Reference discovery | 100% | Complete | Eleven references recorded; six high-priority candidates selected |
+| P1 — Reference discovery | 100% | Complete | Eleven references recorded; seven high-priority candidates selected |
 | P2 — Structural, visual and technical deconstruction | 45% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003, REF-006 and REF-007 description-led studies; REF-009 screenshot/walkthrough study documented |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
@@ -41,6 +41,7 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | Deneb Template Showcase | MIT-licensed repository with 21 template specs, sample data, previews, custom BI Nexus theme and a 22-page PBIP showcase | Study source-level contracts and selected specs; runtime rendering remains pending |
 | AstraVale SQL Health | Creator describes five pages, dataset and operational decision flow; public Power BI URL identified but not rendered | Inspect live report when a compatible browser is available; PBIX/source access remains unconfirmed |
 | OECD Global Well-being | Creator describes dynamic SVG progress bars, anomaly-aware trends, country cross-filtering and gender small multiples; official winner status verified | Verify report rendering, progress-bar scale, anomaly behaviour and whether weighted-composite controls are part of the same report |
+| Europe in Motion | Four-page report description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim verified | PBIX/source not confirmed; inspect full analytical pages and accessibility when available |
 | Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
