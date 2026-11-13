@@ -30,7 +30,7 @@ This project is about Power BI, not PilotODIN.
 
 - Repository existence, public visibility, default branch and write permissions were verified.
 - Foundation documentation, roadmap, research catalogue, audit template and QA guidance have been committed.
-- The reference catalogue contains eleven candidates, including six high-priority references. P1 is complete.
+- The reference catalogue contains eleven candidates, including seven high-priority references. P1 is complete.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
 - The description-led REF-003 study of AstraVale SQL Health is documented in five study files.
