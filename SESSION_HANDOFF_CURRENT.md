@@ -26,9 +26,9 @@ This project is about **Power BI**, not PilotODIN.
 ## Current state
 
 - Repository existence, public visibility, default branch and write permissions were verified.
-- Initial documentation is being established.
+- Initial foundation documentation has been committed and the repository tree has been verified.
 - Research shortlist includes The World of Peaches, City Sustainability Scorecard, AstraVale SQL Health and official Microsoft samples.
-- The first recommended deep dive is The World of Peaches.
+- The first recommended deep dive is The World of Peaches. No local PBIX inspection has been completed yet.
 - No reconstruction has started.
 
 ## Research facts to preserve
