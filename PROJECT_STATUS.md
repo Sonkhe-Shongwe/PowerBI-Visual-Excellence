@@ -12,7 +12,7 @@ This repository is a Power BI learning and design-research workspace. Its purpos
 
 The external reports are case studies, not the deliverables we are trying to recreate. The user's personal projects remain in their own repositories.
 
-The initial project documentation and research structure have been committed. Two source-level studies are documented: The World of Peaches and City Sustainability Scorecard. A third and fourth description-led study, AstraVale SQL Health and OECD Global Well-being, and a fifth screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. A sixth source-level study, Deneb Template Showcase, documents a 21-template Vega/Vega-Lite library, custom theme, PBIP showcase and automated validation. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
+The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Two description-led studies, AstraVale SQL Health and OECD Global Well-being, and one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
 
 The first two public repositories and declared MIT licences were checked; their report definitions, selected visual configurations, TMDL, DAX and component source were inspected. Their PBIX files have not been opened in Power BI Desktop. AstraVale's public Power BI link was identified but could not be rendered in the available browsing interface; no PBIX or source repository was confirmed. Runtime interactions, performance, service rendering and accessibility therefore remain unverified.
 
@@ -22,7 +22,7 @@ No personal project has been modified through this research workspace.
 
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
-| P1 — Reference discovery | 100% | Complete | Ten references recorded; five high-priority candidates selected |
+| P1 — Reference discovery | 100% | Complete | Eleven references recorded; six high-priority candidates selected |
 | P2 — Structural, visual and technical deconstruction | 40% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003 and REF-006 description-led studies; REF-009 screenshot/walkthrough study documented |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
