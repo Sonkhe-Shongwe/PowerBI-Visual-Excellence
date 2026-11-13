@@ -2,53 +2,59 @@
 
 **As of:** 2026-11-13  
 **Overall progress:** 2% (weighted estimate)  
-**Current phase:** P1 — Research and discovery  
-**Project state:** Foundation established; research register seeded
+**Current phase:** P1 — Reference discovery  
+**Project state:** Research foundation established; reference catalogue seeded
 
 ## Executive status
 
-The public repository has been created and the initial project structure and governance documents are being established. A preliminary reference shortlist exists. Two public source repositories and Microsoft's official sample resources have been verified at source level.
+This repository is a Power BI learning and design-research workspace. Its purpose is to study exceptional reports, understand their structure and implementation, extract transferable principles, and use those lessons to improve the user's separate personal projects.
 
-No dashboard has yet been forensically audited or reconstructed in this project. No Power BI theme or reusable component has yet been built or tested here.
+The external reports are case studies, not the deliverables we are trying to recreate. The user's personal projects remain in their own repositories.
+
+The initial project documentation and research structure have been committed. A preliminary reference shortlist exists. Two public source repositories and Microsoft's official sample resources have been identified at source level.
+
+No complete reference study has yet been performed. No reusable theme or component has yet been built and tested. No personal project has been modified as part of this work.
 
 ## Phase scorecard
 
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
-| P1 — Research and discovery | 15% | In progress | Initial source shortlist and reference catalogue |
-| P2 — Forensic design analysis | 0% | Not started | No completed audit |
-| P3 — Design system development | 0% | Not started | No tested theme or component library |
-| P4 — Dashboard reconstruction | 0% | Not started | No reconstruction |
-| P5 — Visual and functional QA | 0% | Not started | No QA execution |
-| P6 — Portfolio-grade original report | 0% | Not started | No original report |
+| P1 — Reference discovery | 15% | In progress | Initial source shortlist and reference catalogue |
+| P2 — Structural, visual and technical deconstruction | 0% | Not started | No completed reference study |
+| P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
+| P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
+| P5 — Validate, refine and document learning | 0% | Not started | No applied-pattern review |
 
 The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md). It is not a measure of time elapsed.
 
 ## Verified starting points
 
-| Reference | What is verified | What is not yet done |
+| Reference | What is known | What remains to be studied |
 |---|---|---|
-| The World of Peaches | Public GitHub repository; MIT licence; PBIX and source files are described in the repository; DAX, HTML/CSS, TMDL and theme resources are present | Local download, page-by-page inspection, interaction audit and reproduction |
-| City Sustainability Scorecard | Public GitHub repository; MIT licence; PBIX, TMDL, DAX and HTML component resources are described in its README | Local download, page-by-page inspection, interaction audit and reproduction |
-| AstraVale SQL Health | Public Microsoft Fabric Community championship report page and public report link | Confirm PBIX/source availability and complete a technical audit |
-| Microsoft Power BI samples | Official documentation and official sample repository provide downloadable sample artefacts | Select and inspect individual reports |
+| The World of Peaches | Public GitHub source repository; README lists PBIX, DAX, HTML/CSS, TMDL and theme resources; MIT licence declared | Open and inspect the report; map page architecture, components and design decisions |
+| City Sustainability Scorecard | Public GitHub source repository; README lists PBIX, TMDL, DAX and HTML component resources; MIT licence declared | Inspect the report and determine which patterns are genuinely transferable |
+| AstraVale SQL Health | Public Microsoft Fabric Community championship report page and public report link | Inspect report structure and confirm PBIX/source availability |
+| Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 
-## Current blockers / dependencies
+## Current boundaries
 
-- Selected PBIX files need to be downloaded and opened in Power BI Desktop for hands-on inspection.
-- Some public reports may be viewable but may not expose their PBIX or underlying model.
-- Custom visuals, external media and embedded assets may have separate licensing or availability conditions.
-- Pixel-perfect reproduction may not be possible when the original visual assets, fonts, dimensions or interaction logic are unavailable.
+- Do not clone an external report as the default next step.
+- Do not treat an attractive screenshot as evidence of implementation details.
+- Do not copy a creator's PBIX or assets into this repository without checking the relevant rights.
+- Do not move the user's personal project source files into this learning repository.
+- Do not choose or change the user's personal project scope without their direction.
+- Use isolated experiments only when they answer a specific technical learning question.
 
 ## Next action
 
-Complete the first forensic audit of **The World of Peaches**:
-1. Verify the repository contents and MIT licence.
-2. Obtain and open the PBIX in Power BI Desktop.
-3. Capture each report page at a consistent canvas size.
-4. Inspect the theme, source folders, DAX measures and HTML/CSS components.
-5. Document the page layout and reusable patterns in the reconstruction workspace.
+Complete the first structured study of **The World of Peaches**:
+1. Verify the current source tree and licence.
+2. Inspect the available report artefacts.
+3. Map page names, purposes, sequence and layout.
+4. Study the theme, component organisation, DAX and HTML/CSS where available.
+5. Record design decisions, strengths, limitations and unknowns.
+6. Extract lessons that could transfer to the user's own Power BI work.
 
-Do not mark P1 or P2 complete until the relevant exit criteria are met.
+The output is a reference study and a set of transferable lessons, not a cloned dashboard.
