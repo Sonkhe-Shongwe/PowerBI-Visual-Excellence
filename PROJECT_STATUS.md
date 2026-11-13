@@ -39,6 +39,7 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | Power BI Basketball Cards | 2025 Week 3 winner; creator walkthrough describes native-visual flippable cards, navigation and a shot-location chart | Locate PBIX or inspect the public walkthrough and report interaction details |
 | Deneb Power BI Example | Public PBIX and README; Deneb donut, dynamic-marker bar, tooltips and drillthrough documented; no licence file found | Study Vega-Lite specs in the PBIX if opened; keep reuse permissions unassumed |
 | AstraVale SQL Health | Creator describes five pages, dataset and operational decision flow; public Power BI URL identified but not rendered | Inspect live report when a compatible browser is available; PBIX/source access remains unconfirmed |
+| OECD Global Well-being | Creator describes dynamic SVG progress bars, anomaly-aware trends, country cross-filtering and gender small multiples; official winner status verified | Verify report rendering, progress-bar scale, anomaly behaviour and whether weighted-composite controls are part of the same report |
 | Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
