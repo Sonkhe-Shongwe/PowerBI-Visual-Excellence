@@ -39,14 +39,15 @@ This project is about Power BI, not PilotODIN.
 - The official screenshot and creator walkthrough show a native-visual player card and shot-chart interaction; PBIX/source access remains unconfirmed.
 - The source-level REF-011 Deneb Template Showcase study is documented in six study files. Its MIT-licensed repository contains 21 Vega/Vega-Lite templates, sample data, previews, a custom theme and a 22-page PBIP showcase.
 - The description- and screenshot-led REF-007 Europe in Motion study is documented in five study files. The creator describes four pages and confirms HTML Content KPI cards and HTML/CSS animated overlays; the employer says the winning report included a colour-blindness simulator. PBIX/source access remains unconfirmed.
+- The description-led REF-008 SQL Radar study is documented in five study files. Its community page lists a 903 KB PBIX attachment and a 2.1 MB screenshot; the PBIX has not been downloaded or inspected.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
 - P2 now contains five documented studies: two source-level, two description-led and one screenshot/walkthrough-led.
-- P2 progress is 45%; overall weighted progress is approximately 26%.
+- P2 progress is 50%; overall weighted progress is approximately 28%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
 - Overall weighted progress is 24%: P1 complete (15 weighted points) plus P2 at 35% (8.75 weighted points), rounded from 23.75%.
-- Current phase is P2. The next reference to investigate is REF-008 SQL Radar.
+- Current phase is P2. The next reference to investigate is REF-004, the official Microsoft Power BI sample set.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -162,7 +163,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-008 SQL Radar as the next operational-monitoring study. Verify the reported PBIX attachment, inspect the source page and any screenshots, and map the report's operational KPI, alert and investigation flow. Confirm file and licence availability before claiming source-level access.
+Begin REF-004, the official Microsoft Power BI sample set. Select one sample report with a useful visual and interaction architecture, then inspect the report pages, visual configuration, navigation and semantic model. Keep the analysis focused on transferable native Power BI patterns.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
