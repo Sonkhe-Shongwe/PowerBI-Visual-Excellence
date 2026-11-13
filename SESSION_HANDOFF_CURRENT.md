@@ -37,14 +37,15 @@ This project is about Power BI, not PilotODIN.
 - The description-led REF-006 study of OECD Global Well-being is documented in five study files.
 - The screenshot- and walkthrough-led REF-009 study of Power BI Basketball Cards is documented in five study files.
 - The official screenshot and creator walkthrough show a native-visual player card and shot-chart interaction; PBIX/source access remains unconfirmed.
+- The source-level REF-011 Deneb Template Showcase study is documented in six study files. Its MIT-licensed repository contains 21 Vega/Vega-Lite templates, sample data, previews, a custom theme and a 22-page PBIP showcase.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The first two PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
 - P2 now contains five documented studies: two source-level, two description-led and one screenshot/walkthrough-led.
-- P2 progress is 35%; overall weighted progress is approximately 24%.
+- P2 progress is 40%; overall weighted progress is 25%.
 - P1 is complete: ten references are recorded and five high-priority study candidates are selected.
 - Overall weighted progress is 24%: P1 complete (15 weighted points) plus P2 at 35% (8.75 weighted points), rounded from 23.75%.
-- Current phase is P2. The next reference to investigate is REF-010 Deneb Power BI Example.
+- Current phase is P2. The next reference to investigate is REF-007 Europe in Motion.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -100,6 +101,16 @@ The creator says the report uses core Power BI visuals only. The walkthrough des
 
 Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/powerbi-basketball-cards/.
 
+### Deneb Template Showcase
+
+Source: https://github.com/InsightfulAnalytics/Deneb
+
+Licence: MIT.
+
+The repository contains 21 Vega/Vega-Lite templates, 21 preview PNGs, 21 sample-data CSVs, a template metadata schema, automated validation, a custom BI Nexus theme and a 22-page PBIP showcase. The main KPI Dashboard 2015 page is 1600 × 900 with 12 Deneb components. The source-level study covers KPI Line Card, Bullet Chart, Calendar Heatmap, KPI Small Multiples and P&L Accounts Statement.
+
+Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/deneb-template-showcase/.
+
 ### Deneb Power BI Example
 
 Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
@@ -140,7 +151,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-010 Deneb Power BI Example as the next technical reference. Inspect its PBIX listing and README, then document the Deneb chart examples, tooltips, drillthrough and report-page tooltip patterns. No licence file was found, so do not reuse its code or assets without permission.
+Begin REF-007 Europe in Motion as the next visual-storytelling study. Verify the original source and inspect available screenshots, page structure, visual hierarchy, map/storytelling patterns and accessibility claims. Keep source-derived facts separate from our own visual interpretation.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
