@@ -34,8 +34,9 @@ This project is about Power BI, not PilotODIN.
 - The source-led REF-001 study of The World of Peaches is documented in five study files.
 - The source-led REF-002 study of City Sustainability Scorecard is documented in five study files.
 - Both PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
-- P1 has eight initial references; the 10-reference discovery gate remains open.
-- Overall weighted progress is approximately 7%.
+- P1 is complete: ten references are recorded and five high-priority study candidates are selected.
+- Overall weighted progress is 20%: P1 complete (15 weighted points) plus P2 at 20% (5 weighted points).
+- Current phase is P2. The next reference to investigate is REF-003 AstraVale SQL Health.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -58,6 +59,20 @@ The public repository README describes the report as a 2026 World Championship R
 Source: https://github.com/gusbavia/city-sustainability-scorecard
 
 The public repository declares an MIT licence and lists the full PBIX, 223 DAX measures in 14 folders, 74 HTML templates, 29 CSS files and TMDL model source. The current source tree contains six 1280 × 720 sections, 72 bookmark JSON definitions and one HTML Content custom visual package. The report's data is illustrative and embedded. The portfolio summary describes four analytical pages, while the PBIX source also includes a 10 Year Overview section.
+
+### Power BI Basketball Cards
+
+Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winner-of-week-3--power-bi-basketball-cards/4600448
+
+Creator walkthrough: https://www.linkedin.com/posts/injae-park_powerbi-dashboarddesign-sportsanalytics-activity-7345811931527589888-DF7M
+
+The 2025 Week 3 winner uses native Power BI visuals for a flippable player card, navigation and a shot-location view. PBIX availability has not been confirmed.
+
+### Deneb Power BI Example
+
+Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
+
+The public repository contains a PBIX and README describing Deneb donut and bar visuals, tooltips and drillthrough. No LICENSE file was found in the inspected repository tree.
 
 ### AstraVale SQL Health
 
@@ -99,7 +114,9 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Continue P1 reference discovery by adding two varied candidates to reach the 10-reference catalogue gate. Then prioritise at least five references for deeper study. Do not begin a full dashboard recreation. Runtime inspection of either PBIX can be done later if the user opens Power BI Desktop.
+Begin REF-003 AstraVale SQL Health as the third source-led study. Inspect the public report page and available images/links. Map the report's operational story from overview to problem diagnosis, root causes and recommended actions. Verify whether an interactive report or downloadable PBIX is accessible before claiming any deeper inspection.
+
+Do not recreate the report. Continue recording transferable lessons only.
 
 ## Required end-of-session updates
 
