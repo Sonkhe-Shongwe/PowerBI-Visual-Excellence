@@ -12,4 +12,5 @@ Material project changes are recorded here in reverse chronological order.
 - Added benchmarking rubric, forensic audit template and licensing policy.
 - Added initial design principles, reconstruction workspace, techniques index and QA criteria.
 - Set The World of Peaches as the first proposed forensic deep dive.
+- Verified the committed repository tree and confirmed that all initial documentation files are present on main.
 - No report reconstruction or Power BI theme has been claimed as complete.
