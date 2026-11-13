@@ -62,6 +62,12 @@ Use this file as the navigation hub for the Power BI learning and design-researc
   - [Visual system](reference-studies/europe-in-motion/VISUAL_SYSTEM.md)
   - [Technical notes](reference-studies/europe-in-motion/TECHNICAL_NOTES.md)
   - [Transferable patterns](reference-studies/europe-in-motion/TRANSFERABLE_PATTERNS.md)
+- [SQL Radar](reference-studies/sql-radar/README.md) — REF-008 study index.
+  - [Study notes](reference-studies/sql-radar/STUDY_NOTES.md)
+  - [Page architecture](reference-studies/sql-radar/PAGE_ARCHITECTURE.md)
+  - [Visual system](reference-studies/sql-radar/VISUAL_SYSTEM.md)
+  - [Technical notes](reference-studies/sql-radar/TECHNICAL_NOTES.md)
+  - [Transferable patterns](reference-studies/sql-radar/TRANSFERABLE_PATTERNS.md)
 
 ## Design system
 
