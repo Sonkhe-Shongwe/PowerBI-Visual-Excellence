@@ -10,7 +10,7 @@ A reference is a research candidate until it has been inspected. A public screen
 | ID | Reference | Category | Source access | PBIX/source status | Audit status |
 |---|---|---|---|---|---|
 | REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, theme and report JSON inspected; MIT declared | Source study documented; runtime checks pending |
-| REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository | PBIX and source files listed; MIT declared | Not audited |
+| REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, report config and model source inspected; MIT declared | Source study documented; runtime checks pending |
 | REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and report | Public report link; downloadable PBIX not confirmed | Not audited |
 | REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | Multiple PBIX files available | Not audited |
 | REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft sample documentation | PBIX listed | Not audited |
@@ -37,10 +37,12 @@ A reference is a research candidate until it has been inspected. A public screen
 - Creator: Gus Bavia.
 - Source: https://github.com/gusbavia/city-sustainability-scorecard
 - Repository licence: MIT (verify the current LICENSE file before reuse).
-- The repository README lists a PBIX, 223 DAX measures, 74 HTML components, TMDL model source, report layout/bookmarks and a theme.
+- The repository README lists a PBIX, 223 DAX measures in 14 folders, 74 HTML templates, 29 CSS files, TMDL model source, report layout/bookmarks and a theme resource. The current source tree contains 72 bookmark JSON definitions and one HTML Content custom visual package.
 - The README identifies illustrative city sustainability data held in the model.
-- Potential learning areas: scoring and normalisation, reusable HTML cards/panels, radar and sparkline components, accessibility alt text, theme-level design tokens and guided navigation.
-- Caution: inspect the bundled third-party visual and its own licence/terms before reusing it.
+- Source study: six 1280 × 720 sections (Welcome, Executive Summary, Performance, Ranking, Temporal Analysis and 10 Year Overview), native field parameter, hybrid native/custom visual architecture, and 14 purpose-based DAX folders.
+- Runtime status: PBIX has not yet been opened in Power BI Desktop; interactions, service rendering and accessibility remain unverified.
+- Important discrepancy: the creator's portfolio summary describes four analytical pages, while the public PBIX source contains an additional 10 Year Overview section.
+- Caution: external image/video URLs are referenced by DAX even though the analytical data is embedded. Verify third-party visual and asset terms before reuse.
 
 ### REF-003 — AstraVale SQL Health
 
