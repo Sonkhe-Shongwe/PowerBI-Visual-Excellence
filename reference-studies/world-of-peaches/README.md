@@ -2,7 +2,7 @@
 
 **Reference:** [gusbavia/the-world-of-peaches](https://github.com/gusbavia/the-world-of-peaches)  
 **Reference ID:** REF-001  
-**Status:** Not studied  
+**Status:** Source-level study documented; Power BI Desktop/runtime inspection pending  
 **Role:** First structured case study
 
 ## Why study this report?
@@ -57,6 +57,16 @@ These are source-repository claims. They are not a substitute for inspecting the
 
 Do not commit the creator's PBIX, extracted code, images or media into this repository unless the exact licence and asset conditions have been checked. Link to the original source and retain required notices when adapting permitted code.
 
+## Current findings
+
+The source defines five sections: Welcome, Overview, Production, Trade and Tabular View. This is four analytical pages plus a cover/entry page. All five use a 1280 × 720 canvas.
+
+The report combines native Power BI elements with a custom HTML Content visual. The public source includes 45 DAX files, 17 HTML templates, 16 CSS files, TMDL model source, a theme JSON and report configuration.
+
+The strongest learning opportunity is the creator's design-first workflow: data audit, narrative brief, design system, annotated wireframe and isolated component development before Power BI integration.
+
 ## Current next action
 
-Verify the source artefacts and start the page architecture study. The output is understanding and transferable knowledge, not a cloned dashboard.
+Open the PBIX in Power BI Desktop and verify the actual experience: page navigation, year/continent filters, metric selectors, map interactions, tutorial overlays, hover states and rendering. Record runtime observations separately from source-level findings.
+
+The output remains understanding and transferable knowledge, not a cloned dashboard.
