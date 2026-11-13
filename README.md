@@ -115,7 +115,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-010: Deneb Power BI Example**. Review the public PBIX and README for Deneb/Vega-Lite specifications, custom chart encodings, tooltips, drillthrough and report-page tooltips. The repository has no LICENSE file, so treat its contents as study-only unless reuse permission is confirmed. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-007: Europe in Motion**. Verify the original source, inspect available screenshots and report links, and focus on information hierarchy, accessibility decisions, map/storytelling patterns and page sequence. Clearly distinguish observed visuals from creator descriptions. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
 
 ---
 
