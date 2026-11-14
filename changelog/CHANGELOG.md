@@ -2,6 +2,17 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-14 — REF-004 selected and continuity records reconciled
+
+- Selected AdventureWorks Sales (2026 refresh) as the first report to inspect from the official Microsoft sample collection.
+- Verified the PBIX file's presence in the Microsoft sample repository and recorded its 8,390,782-byte size.
+- Recorded the documented dark theme, donut centre values, series labels, Azure Maps and date-picker capabilities.
+- Added an inspection plan covering page architecture, visual hierarchy, interactions, mobile layout, semantic model, accessibility and performance.
+- Recorded the sample-data attribution caution; the repository root MIT licence is not treated as blanket permission for embedded sample assets.
+- Reconciled the README, project status, roadmap, catalogue and session handoff. Corrected the reference count to eleven and the documented study count to eight.
+- Kept P2 at 50% and overall weighted progress at 28%; no Desktop inspection or completed REF-004 study is claimed.
+- No personal project files or sample PBIX files were copied into this repository.
+
 ## 2026-11-13 — REF-007 Europe in Motion study documented
 
 - Verified the creator's four-page description and selected community replies.
