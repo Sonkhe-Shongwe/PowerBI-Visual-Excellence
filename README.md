@@ -117,7 +117,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-004: AdventureWorks Sales (2026 refresh)**. The sample has been selected and its official PBIX is available in Microsoft's sample repository. Start with [the selection and inspection note](reference-studies/microsoft-2026-samples/README.md). Open the PBIX in Power BI Desktop, inspect the report pages, visual configuration, interactions and semantic model, and record evidence before claiming runtime verification. Do not copy the sample PBIX into this repository.
+The [REF-004 AdventureWorks Sales audit](reference-studies/microsoft-2026-samples/README.md) now documents the saved report definitions and embedded model. Continue REF-004 in Power BI Desktop. Capture the Overview page and Model view, then verify date-role switching, date-picker modes, map and donut interactions, phone layout, accessibility and representative timings.
 
 ---
 

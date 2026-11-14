@@ -2,6 +2,13 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-14 | REF-004 source audit and handoff correction
+
+- Matched the official AdventureWorks Sales PBIX to its published Git blob and inspected the report definitions and embedded semantic model.
+- Documented one Overview page, ten analytical or filter visuals, ten phone placements, SoftDark, nine model relationships and two calculation groups.
+- Corrected the current reference priority count to seven across the status and handoff, removed a duplicated Basketball Cards section and restored the SQL Radar entry below.
+- Kept P2 at 50% and overall progress at 28% with Desktop validation still open. Recorded the next tests in the REF-004 study.
+
 ## 2026-11-14 — REF-004 selected and continuity records reconciled
 
 - Selected AdventureWorks Sales (2026 refresh) as the first report to inspect from the official Microsoft sample collection.
@@ -12,6 +19,12 @@ Material project changes are recorded here in reverse chronological order.
 - Reconciled the README, project status, roadmap, catalogue and session handoff. Corrected the reference count to eleven and the documented study count to eight.
 - Kept P2 at 50% and overall weighted progress at 28%; no Desktop inspection or completed REF-004 study is claimed.
 - No personal project files or sample PBIX files were copied into this repository.
+
+## 2026-11-13 | REF-008 SQL Radar study documented
+
+- Documented the creator's Signal, Diagnosis and Action workflow, native Power BI and HTML visual split, and focus on detecting drift.
+- Recorded a 2.1 MB screenshot and 903 KB PBIX attachment listed on the source page. The PBIX was not downloaded or inspected for the study, and reuse terms remain unconfirmed.
+- Added five study documents plus an index. The project reached eight documented studies and P2 moved to 50%.
 
 ## 2026-11-13 — REF-007 Europe in Motion study documented
 

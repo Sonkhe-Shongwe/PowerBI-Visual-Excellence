@@ -3,7 +3,7 @@
 **As of:** 2026-11-14  
 **Overall progress:** 28% (weighted estimate)  
 **Current phase:** P2 — Structural, visual and technical deconstruction
-**Current focus:** REF-004, AdventureWorks Sales (2026 refresh); Power BI Desktop inspection pending  
+**Current focus:** REF-004, AdventureWorks Sales (2026 refresh). Source inspection documented, Desktop validation pending.
 **Project state:** Reference discovery gate complete; eight studies documented, three source-level, four description-led and one screenshot/walkthrough-led
 
 ## Executive status
@@ -43,7 +43,7 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | OECD Global Well-being | Creator describes dynamic SVG progress bars, anomaly-aware trends, country cross-filtering and gender small multiples; official winner status verified | Verify report rendering, progress-bar scale, anomaly behaviour and whether weighted-composite controls are part of the same report |
 | Europe in Motion | Four-page report description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim verified | PBIX/source not confirmed; inspect full analytical pages and accessibility when available |
 | SQL Radar | Three-page Signal/Diagnosis/Action structure; native/HTML split; screenshot and 903 KB PBIX attachment listed on source page | PBIX not downloaded/opened; verify licence, page layout and technical implementation |
-| Microsoft Power BI samples | Official documentation and official sample repository provide sample artefacts | Select reports that teach useful structure, visual and interaction patterns |
+| AdventureWorks Sales (2026 refresh) | Official PBIX inspected. One 1920 × 1080 Overview page, native visual and mobile configuration, SoftDark theme, ten model tables and two calculation groups documented | Capture Desktop screenshots and test interactions, accessibility, performance and phone layout |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 
@@ -103,14 +103,13 @@ See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 - [Technical notes](reference-studies/city-sustainability-scorecard/TECHNICAL_NOTES.md)
 - [Transferable patterns](reference-studies/city-sustainability-scorecard/TRANSFERABLE_PATTERNS.md)
 
-## REF-004 selection note
+## REF-004 audit
 
-- [AdventureWorks Sales (2026 refresh): selection and inspection plan](reference-studies/microsoft-2026-samples/README.md)
-- The official PBIX is present in Microsoft's sample repository; Power BI Desktop inspection, interaction testing and model verification remain pending.
+- [AdventureWorks Sales (2026 refresh)](reference-studies/microsoft-2026-samples/README.md) documents the saved report and model. The audit remains open while Desktop validation is pending.
 
 ## Reference discovery gate
 
-P1 is complete: the catalogue now contains eleven references, each with a source link and verification status, and five high-priority candidates have been selected. Priority labels are study sequencing, not benchmark scores.
+P1 is complete: the catalogue now contains eleven references, each with a source link and verification status, and seven high-priority candidates have been selected. Priority labels are study sequencing, not benchmark scores.
 
 ## Current boundaries
 
@@ -123,7 +122,7 @@ P1 is complete: the catalogue now contains eleven references, each with a source
 
 ## Next action
 
-Continue the REF-004 audit with the selected AdventureWorks Sales (2026 refresh) PBIX. Open it in Power BI Desktop, capture every report page, inspect the theme and visual configuration, test date-picker and Azure Maps interactions, and review the semantic model. Record the observed evidence in the five study documents before marking the reference complete. Keep this as a learning reference rather than a personal project.
+Continue REF-004 in Power BI Desktop. Capture the Overview page and Model view, then verify date-role switching, date-picker modes, map and donut interactions, phone layout, accessibility and representative timings.
 
 The SQL Radar PBIX attachment is listed publicly but has not been downloaded/opened. The World of Peaches and City Sustainability PBIX files also remain untested in Power BI Desktop.
 

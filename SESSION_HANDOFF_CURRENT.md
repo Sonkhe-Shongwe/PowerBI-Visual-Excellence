@@ -45,8 +45,7 @@ This project is about Power BI, not PilotODIN.
 - The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
 - P2 now contains eight documented studies: three source-level, four description-led and one screenshot/walkthrough-led.
 - P2 progress is 50%; overall weighted progress is approximately 28%.
-- P1 is complete: eleven references are recorded and five high-priority study candidates are selected.
-- Current phase is P2. REF-004 is the next audit, with AdventureWorks Sales (2026 refresh) selected as the first sample. Power BI Desktop inspection is still pending.
+- REF-004 AdventureWorks Sales (2026 refresh) has a documented source audit covering its single Overview page, SoftDark theme, phone placements, ten model tables and two calculation groups. Power BI Desktop validation remains pending.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -83,14 +82,6 @@ Official winner announcement: https://community.fabric.microsoft.com/blog/fbc_pb
 The creator describes three domains with three measures each, dynamic SVG progress bars, trends with anomaly detection, country cross-filtering, domain-specific styling and a second gender-disparity page using small multiples. The post includes a Power BI embed token, but no PBIX/source repository was confirmed and the live report was not rendered.
 
 Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/oecd-global-wellbeing/.
-
-### Power BI Basketball Cards
-
-Source: https://community.fabric.microsoft.com/discussions/pbi_contestsgallery/winner-of-week-3--power-bi-basketball-cards/4600448
-
-Creator walkthrough: https://www.linkedin.com/posts/injae-park_powerbi-dashboarddesign-sportsanalytics-activity-7345811931527589888-DF7M
-
-The 2025 Week 3 winner uses native Power BI visuals for a flippable player card, navigation and a shot-location view. PBIX availability has not been confirmed.
 
 ### Power BI Basketball Cards
 
@@ -162,7 +153,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-004 with AdventureWorks Sales (2026 refresh). The selection and evidence boundary are recorded in reference-studies/microsoft-2026-samples/README.md. The official PBIX exists in Microsoft's sample repository (8,390,782 bytes). Open it in Power BI Desktop and inspect page architecture, dark-theme implementation, donut centre values, series labels, Azure Maps, date-picker behaviour, mobile layout, tooltips and the semantic model. Record only observed findings as verified; the current documentation-based feature summary is not a substitute for Desktop inspection.
+Continue REF-004 in Power BI Desktop. Capture the Overview page and Model view, then verify date-role switching, date-picker modes, map and donut interactions, phone layout, accessibility and representative timings. Use the checklist in [the audit index](reference-studies/microsoft-2026-samples/README.md).
 
 Do not recreate the report. Continue recording transferable lessons only.
 

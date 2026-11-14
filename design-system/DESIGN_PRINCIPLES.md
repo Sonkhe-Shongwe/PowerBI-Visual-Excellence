@@ -94,6 +94,8 @@ Advanced techniques must be documented, tested and justified. Avoid introducing 
 - Avoid tiny labels that only work when zoomed in.
 - Consider how the report behaves in Desktop and in the Service if both are target environments.
 
+For phone layouts, reflow summary and detail components by reading priority. Check which desktop labels and controls need different treatment at phone width. [AdventureWorks Sales phone layout](../reference-studies/microsoft-2026-samples/PAGE_ARCHITECTURE.md#phone-layout)
+
 ## 10. Measure quality
 
 A report is not complete because it looks attractive to its creator. It must pass visual, functional, accessibility and analytical checks.

@@ -43,7 +43,7 @@ Exit criteria:
 
 **Objective:** Understand how selected reports are organised, designed and engineered.
 
-**Current reference:** REF-004, AdventureWorks Sales (2026 refresh). The official PBIX file is confirmed in Microsoft's sample repository; Power BI Desktop inspection remains pending. See [the selection and inspection note](reference-studies/microsoft-2026-samples/README.md).
+**Current reference:** REF-004, AdventureWorks Sales (2026 refresh). The saved report definitions and embedded model have been inspected. Power BI Desktop validation remains pending. See [the audit](reference-studies/microsoft-2026-samples/README.md).
 
 For each selected report, study:
 - Page count, page dimensions, page purpose and narrative sequence.
