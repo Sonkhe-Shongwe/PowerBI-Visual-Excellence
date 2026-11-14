@@ -4,8 +4,8 @@
 
 **Owner:** [Sonkhe-Shongwe](https://github.com/Sonkhe-Shongwe)  
 **Repository:** [PowerBI-Visual-Excellence](https://github.com/Sonkhe-Shongwe/PowerBI-Visual-Excellence)  
-**Status:** Research foundation established · Reference studies in progress  
-**Last updated:** 2026-11-13
+**Status:** P2 in progress · Reference research and design deconstruction  
+**Last updated:** 2026-11-14
 
 ## Mission
 
@@ -68,8 +68,8 @@ The user's personal projects remain in their own repositories and retain their o
 
 | Phase | Focus | Status |
 |---|---|---|
-| P1 | Reference discovery | In progress |
-| P2 | Structural, visual and technical deconstruction | Pending |
+| P1 | Reference discovery | Complete |
+| P2 | Structural, visual and technical deconstruction | In progress |
 | P3 | Pattern extraction and design system | Pending |
 | P4 | Apply lessons to personal projects | Pending |
 | P5 | Validate, refine and document learning | Pending |
@@ -117,7 +117,7 @@ The [reference catalogue](research/REFERENCE_CATALOG.md) records source links, w
 
 ## Current next action
 
-Continue P2 with **REF-008: SQL Radar**. Verify the PBIX attachment reported on the original community page, inspect available screenshots and report details, and focus on operational KPIs, alert hierarchy, drilldown and decision flow. Confirm file and licence availability before claiming source-level access. The output is another evidence-backed study and transferable patterns, not a cloned dashboard.
+Continue P2 with **REF-004: AdventureWorks Sales (2026 refresh)**. The sample has been selected and its official PBIX is available in Microsoft's sample repository. Start with [the selection and inspection note](reference-studies/microsoft-2026-samples/README.md). Open the PBIX in Power BI Desktop, inspect the report pages, visual configuration, interactions and semantic model, and record evidence before claiming runtime verification. Do not copy the sample PBIX into this repository.
 
 ---
 
