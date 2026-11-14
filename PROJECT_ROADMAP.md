@@ -1,6 +1,6 @@
 # Project Roadmap
 
-**Last updated:** 2026-11-13  
+**Last updated:** 2026-11-14  
 **Current phase:** P2 — Structural, visual and technical deconstruction
 
 This roadmap governs a research and learning programme. Percentages represent completed, evidenced work, not time spent or optimism.
@@ -42,6 +42,8 @@ Exit criteria:
 ## P2 — Structural, visual and technical deconstruction
 
 **Objective:** Understand how selected reports are organised, designed and engineered.
+
+**Current reference:** REF-004, AdventureWorks Sales (2026 refresh). The official PBIX file is confirmed in Microsoft's sample repository; Power BI Desktop inspection remains pending. See [the selection and inspection note](reference-studies/microsoft-2026-samples/README.md).
 
 For each selected report, study:
 - Page count, page dimensions, page purpose and narrative sequence.
