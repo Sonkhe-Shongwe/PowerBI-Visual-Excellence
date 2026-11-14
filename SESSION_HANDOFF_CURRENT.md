@@ -40,11 +40,12 @@ This project is about Power BI, not PilotODIN.
 - The source-level REF-011 Deneb Template Showcase study is documented in six study files. Its MIT-licensed repository contains 21 Vega/Vega-Lite templates, sample data, previews, a custom theme and a 22-page PBIP showcase.
 - The description- and screenshot-led REF-007 Europe in Motion study is documented in five study files. The creator describes four pages and confirms HTML Content KPI cards and HTML/CSS animated overlays; the employer says the winning report included a colour-blindness simulator. PBIX/source access remains unconfirmed.
 - The description-led REF-008 SQL Radar study is documented in five study files. Its community page lists a 903 KB PBIX attachment and a 2.1 MB screenshot; the PBIX has not been downloaded or inspected.
+- The description-led REF-005 Sales and Returns study is documented in five study files. Microsoft documents five main pages and interactions including bookmarks, tooltips, drillthrough, What-if analysis, custom visuals, Power Apps and mobile layout. The official 6.23 MB PBIX listing is verified but the binary has not been opened or source-inspected.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
-- P2 now contains eight documented studies: three source-level, four description-led and one screenshot/walkthrough-led.
-- P2 progress is 50%; overall weighted progress is approximately 28%.
+- P2 now contains nine documented studies: three source-level, five description-led and one screenshot/walkthrough-led.
+- P2 progress is 55%; overall weighted progress is approximately 29%.
 - REF-004 AdventureWorks Sales (2026 refresh) has a documented source audit covering its single Overview page, SoftDark theme, phone placements, ten model tables and two calculation groups. Power BI Desktop validation remains pending.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
@@ -126,6 +127,16 @@ Official sample repository: https://github.com/microsoft/powerbi-desktop-samples
 
 Microsoft's sample resources provide examples for studying report design and implementation. Each sample's own licensing and attribution conditions must be checked before reuse.
 
+### Sales and Returns
+
+Microsoft Learn: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-sales-returns  
+Creator tour: https://community.fabric.microsoft.com/blog/fbc_pbiupdatesblog/take-a-tour-of-the-new-sales--returns-sample-report/5175940  
+Official PBIX: https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix
+
+The creator documents five main pages: Intro, Net Sales, Returns, Return Rate and Market Basket Analysis. The report demonstrates bookmark-driven alternate views, report-page tooltips, Mapbox, Q&A, Key Influencers, Decomposition Tree, AI distribution insights, drillthrough, What-if analysis, a custom cluster map, Power Apps integration and phone layout planning. The study is description-led because the PBIX has not been opened. Microsoft's sample terms separately identify the workbook and related data as obviEnce property and require the obviEnce © notice. Do not assume the repository's root MIT licence grants unrestricted rights to the sample data or assets.
+
+Study files: README.md, STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/sales-and-returns/.
+
 ## REF-001 source findings
 
 - Five sections: Welcome, Overview, Production, Trade and Tabular View.
@@ -153,7 +164,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Run the [REF-004 Desktop validation register](reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md) on Windows. Start with Overview and Model view, then reconcile Orders and Sales for the three June 2020 date roles. Expected values, a DAX Query View check and the remaining interaction, mobile, accessibility and performance tests are recorded in the register. All eight Desktop tests are pending.
+Run the [REF-004 Desktop validation register](reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md) on Windows. Start with Overview and Model view, then reconcile Orders and Sales for the three June 2020 date roles. Expected values, a DAX Query View check and the remaining interaction, mobile, accessibility and performance tests are recorded in the register. All eight Desktop tests are pending. After that pass, open the Sales and Returns PBIX and verify the creator-described bookmark, drillthrough, What-if, custom-visual and phone-layout behaviour.
 
 Do not recreate the report. Continue recording transferable lessons only.
 

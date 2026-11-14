@@ -102,4 +102,16 @@ For phone layouts, reflow summary and detail components by reading priority. Che
 
 A report is not complete because it looks attractive to its creator. It must pass visual, functional, accessibility and analytical checks.
 
+## 11. Design a deliberate analysis-to-action journey
+
+A report can guide the reader from current state to diagnosis, scenario evaluation and action.
+
+- Separate the business overview from deeper diagnostic and scenario pages.
+- Preserve selected context when drilling from a summary to a detail view.
+- Make scenario assumptions visible and distinguish observed baselines from projected outcomes.
+- Connect an insight to an operational workflow only when permissions, ownership and follow-up are clear.
+- Keep action controls optional and provide an understandable route back to the analysis.
+
+This pattern is documented in [Sales and Returns](../reference-studies/sales-and-returns/TRANSFERABLE_PATTERNS.md) and [AstraVale SQL Health](../reference-studies/astravale-sql-health/TRANSFERABLE_PATTERNS.md). These are research-derived principles, not yet tested components.
+
 Related: [Visual acceptance criteria](../quality-assurance/VISUAL_ACCEPTANCE.md) and [Benchmark scorecard](../research/BENCHMARK_SCORECARD.md).

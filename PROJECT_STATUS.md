@@ -1,10 +1,10 @@
 # Project Status
 
 **As of:** 2026-11-14  
-**Overall progress:** 28% (weighted estimate)  
+**Overall progress:** 29% (weighted estimate)  
 **Current phase:** P2 — Structural, visual and technical deconstruction
 **Current focus:** REF-004, AdventureWorks Sales (2026 refresh). Source inspection documented, Desktop validation pending.
-**Project state:** Reference discovery gate complete; eight studies documented, three source-level, four description-led and one screenshot/walkthrough-led
+**Project state:** Reference discovery gate complete; nine studies documented, three source-level, five description-led and one screenshot/walkthrough-led
 
 ## Executive status
 
@@ -12,9 +12,9 @@ This repository is a Power BI learning and design-research workspace. Its purpos
 
 The external reports are case studies, not the deliverables we are trying to recreate. The user's personal projects remain in their own repositories.
 
-The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Four description-led studies, AstraVale SQL Health, OECD Global Well-being, Europe in Motion and SQL Radar, and one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
+The initial project documentation and research structure have been committed. Three source-level studies are documented: The World of Peaches, City Sustainability Scorecard and Deneb Template Showcase. Five description-led studies, AstraVale SQL Health, OECD Global Well-being, Europe in Motion, SQL Radar, and Sales and Returns, plus one screenshot/walkthrough-led study, Power BI Basketball Cards, document report architecture and interaction patterns. The studies cover page architecture, visual systems where available, semantic models, DAX, HTML/CSS, interactions, technical dependencies and transferable patterns.
 
-The first two public repositories and declared MIT licences were checked; their report definitions, selected visual configurations, TMDL, DAX and component source were inspected. Their PBIX files have not been opened in Power BI Desktop. AstraVale's public Power BI link was identified but could not be rendered in the available browsing interface; no PBIX or source repository was confirmed. Runtime interactions, performance, service rendering and accessibility therefore remain unverified.
+The first two public repositories and declared MIT licences were checked; their report definitions, selected visual configurations, TMDL, DAX and component source were inspected. Their PBIX files have not been opened in Power BI Desktop. AstraVale's public Power BI link was identified but could not be rendered in the available browsing interface; no PBIX or source repository was confirmed. The Sales and Returns PBIX is listed in Microsoft's repository, but its binary and Desktop behaviour have not been inspected. Runtime interactions, performance, service rendering and accessibility therefore remain unverified.
 
 No personal project has been modified through this research workspace.
 
@@ -23,12 +23,12 @@ No personal project has been modified through this research workspace.
 | Phase | Progress | Status | Evidence |
 |---|---:|---|---|
 | P1 — Reference discovery | 100% | Complete | Eleven references recorded; seven high-priority candidates selected |
-| P2 — Structural, visual and technical deconstruction | 50% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003, REF-006, REF-007 and REF-008 description-led studies; REF-009 screenshot/walkthrough study documented |
+| P2 — Structural, visual and technical deconstruction | 55% | In progress | REF-001, REF-002 and REF-011 source-level studies; REF-003, REF-005, REF-006, REF-007 and REF-008 description-led studies; REF-009 screenshot/walkthrough study documented |
 | P3 — Pattern extraction and design system | 0% | Not started | No validated reusable pattern library |
 | P4 — Apply lessons to personal projects | 0% | Not started | No user-selected project application |
 | P5 — Validate, refine and document learning | 0% | Not started | No applied-pattern review |
 
-The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 12.5% from P2, or 27.5%, rounded to 28%.
+The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md): 15% from completed P1 plus 13.75% from P2, or 28.75%, rounded to 29%.
 
 ## Verified starting points
 
@@ -44,6 +44,7 @@ The overall percentage is calculated using phase weights in [PROJECT_ROADMAP.md]
 | Europe in Motion | Four-page report description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim verified | PBIX/source not confirmed; inspect full analytical pages and accessibility when available |
 | SQL Radar | Three-page Signal/Diagnosis/Action structure; native/HTML split; screenshot and 903 KB PBIX attachment listed on source page | PBIX not downloaded/opened; verify licence, page layout and technical implementation |
 | AdventureWorks Sales (2026 refresh) | Official PBIX inspected. One 1920 × 1080 Overview page, native visual and mobile configuration, SoftDark theme, ten model tables and two calculation groups documented | Capture Desktop screenshots and test interactions, accessibility, performance and phone layout |
+| Sales and Returns | Five-page architecture and interaction patterns documented from Microsoft Learn and the creator tour; official 6.23 MB PBIX listing verified | Open PBIX in Desktop; inspect model, bookmarks, drillthrough, What-if calculations, custom visuals, mobile layout and accessibility |
 
 See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 
@@ -102,6 +103,14 @@ See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 - [Visual system](reference-studies/city-sustainability-scorecard/VISUAL_SYSTEM.md)
 - [Technical notes](reference-studies/city-sustainability-scorecard/TECHNICAL_NOTES.md)
 - [Transferable patterns](reference-studies/city-sustainability-scorecard/TRANSFERABLE_PATTERNS.md)
+
+## REF-005 study documents
+
+- [Study notes](reference-studies/sales-and-returns/STUDY_NOTES.md)
+- [Page architecture](reference-studies/sales-and-returns/PAGE_ARCHITECTURE.md)
+- [Visual system](reference-studies/sales-and-returns/VISUAL_SYSTEM.md)
+- [Technical notes](reference-studies/sales-and-returns/TECHNICAL_NOTES.md)
+- [Transferable patterns](reference-studies/sales-and-returns/TRANSFERABLE_PATTERNS.md)
 
 ## REF-004 audit
 

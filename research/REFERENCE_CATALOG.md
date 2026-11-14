@@ -13,7 +13,7 @@ A reference is a research candidate until it has been inspected. A public screen
 | REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, report config and model source inspected; MIT declared | High | Source study documented; runtime checks pending |
 | REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and public Power BI report link | Five-page description and public report URL verified; downloadable PBIX/source not confirmed | High | Description-led study documented; runtime inspection pending |
 | REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | AdventureWorks Sales (2026 refresh) report definitions and embedded model inspected | Medium | Source audit documented. Desktop validation pending |
-| REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft sample documentation | PBIX listed | Medium | Candidate; source audit pending |
+| REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft Learn article, Fabric Community tour and GitHub sample repository | PBIX listed in official repository (6.23 MB); not opened or source-inspected | Medium | Description-led study documented; PBIX and Desktop inspection pending |
 | REF-006 | OECD Global Well-being | Championship / country comparison | Official Microsoft announcement, creator's Fabric Community entry and related Reddit discussion | Creator post includes a Power BI embed token; separate PBIX/source not confirmed | High | Description-led study documented; live/source inspection pending |
 | REF-007 | Europe in Motion | Championship / accessible data storytelling | Microsoft Fabric Community entry, creator's LinkedIn post and employer winner announcement | Four-page description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim inspected; PBIX/source not confirmed | High | Description- and screenshot-led study documented; runtime pending |
 | REF-008 | SQL Radar | Championship / operational monitoring | Microsoft Fabric Community entry and creator's public LinkedIn post | Three-page report description; 2.1 MB screenshot and 903 KB PBIX attachment listed; file not downloaded; licence not confirmed | Medium | Description-led study documented; PBIX inspection pending |
@@ -75,10 +75,16 @@ A reference is a research candidate until it has been inspected. A public screen
 
 ### REF-005 — Sales and Returns sample
 
-- Official guide: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets
-- The official Microsoft sample catalogue lists a downloadable PBIX and describes buttons, drillthrough, conditional formatting, what-if parameters and customised tooltips.
-- Potential learning areas: report interactions and navigation patterns.
-- Use the official sample catalogue to locate the current download and inspect the PBIX before scoring.
+- Creator credits: Miguel Myers and Chris Hamill.
+- Microsoft Learn: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-sales-returns
+- Creator tour: https://community.fabric.microsoft.com/blog/fbc_pbiupdatesblog/take-a-tour-of-the-new-sales--returns-sample-report/5175940
+- Official PBIX: https://github.com/microsoft/powerbi-desktop-samples/blob/main/Sample%20Reports/Sales%20%26%20Returns%20Sample%20v201912.pbix
+- The official GitHub listing reports a 6.23 MB PBIX named Sales & Returns Sample v201912.pbix. The binary was not opened or parsed during this study.
+- The creator documents five main pages: Intro, Net Sales, Returns, Return Rate and Market Basket Analysis. Additional hidden pages support tooltips and other report elements.
+- Documented techniques include bookmark-driven chart/table and visual/map alternatives, report-page tooltips, Mapbox from AppSource, Q&A, Key Influencers, Decomposition Tree, AI distribution insights, drillthrough, What-if analysis, a custom cluster map, Power Apps integration and phone layout planning.
+- A limited official screenshot supports observations of the Returns-page visual hierarchy. Exact dimensions, typography, spacing, theme tokens, accessibility and runtime behaviour remain unknown.
+- Study status: description-led study documented in reference-studies/sales-and-returns/. No benchmark score assigned.
+- Licensing caution: the Microsoft sample repository has a root MIT licence, but Microsoft Learn separately states that the workbook and related data are obviEnce property, are for internal reference purposes, and require the obviEnce © notice. Do not treat the repository licence as blanket permission to redistribute the PBIX or reuse its assets publicly.
 
 ### REF-006 — OECD Global Well-being
 

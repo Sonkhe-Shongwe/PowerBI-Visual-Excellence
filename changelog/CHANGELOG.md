@@ -2,6 +2,15 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-14 | REF-005 Sales and Returns study documented
+
+- Inspected the Microsoft Learn report article, Microsoft Fabric Community creator tour, official GitHub PBIX listing and an official report screenshot.
+- Documented the five-page report journey, bookmark-driven alternate views, report-page tooltips, drillthrough, What-if analysis, AI-assisted exploration, custom visuals, Power Apps concept and mobile-layout intent.
+- Recorded the official PBIX listing at approximately 6.23 MB, but did not open or parse the binary and did not claim Desktop validation.
+- Recorded the separate obviEnce sample-data attribution terms and the limitation of the repository-level MIT licence.
+- Added five study documents and updated the catalogue, status, roadmap, handoff and design principles. P2 moved to 55%; overall weighted progress is 29%.
+- No benchmark score, PBIX redistribution, or personal-project implementation is claimed.
+
 ## 2026-11-14 | REF-004 Desktop validation prepared
 
 - Reconciled June 2020 date-role totals against the embedded Sales and Sales Order tables using Pandas and SQLite. Recorded test values, empty-window behaviour to check, and missing ship-date coverage.

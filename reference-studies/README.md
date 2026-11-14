@@ -32,6 +32,7 @@ A study should distinguish direct observation from inference. Do not claim techn
 - [Europe in Motion](europe-in-motion/README.md) — REF-007; description- and screenshot-led study documented, PBIX/source inspection pending.
 - [SQL Radar](sql-radar/README.md) — REF-008; description-led study documented; PBIX attachment listed but not downloaded/opened.
 - [AdventureWorks Sales (2026 refresh)](microsoft-2026-samples/README.md) — REF-004; official PBIX report and model inspected. The audit remains open pending Desktop validation.
+- [Sales and Returns](sales-and-returns/README.md) — REF-005; description-led interaction study documented, PBIX inspection pending.
 
 ## What we do not do
 

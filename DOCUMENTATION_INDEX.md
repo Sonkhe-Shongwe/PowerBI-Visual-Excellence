@@ -21,6 +21,7 @@ Use this file as the navigation hub for the Power BI learning and design-researc
 
 - [Reference studies index](reference-studies/README.md) — how external reports are studied.
 - [REF-004: AdventureWorks Sales (2026 refresh)](reference-studies/microsoft-2026-samples/README.md) — source audit and pending Desktop validation checklist.
+- [REF-005: Sales and Returns](reference-studies/sales-and-returns/README.md) — description-led interaction study; PBIX inspection pending.
 - [The World of Peaches](reference-studies/world-of-peaches/README.md) — REF-001 study index.
   - [Study notes](reference-studies/world-of-peaches/STUDY_NOTES.md)
   - [Page architecture](reference-studies/world-of-peaches/PAGE_ARCHITECTURE.md)
