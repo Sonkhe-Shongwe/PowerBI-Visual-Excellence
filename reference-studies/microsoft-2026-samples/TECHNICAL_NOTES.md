@@ -28,4 +28,6 @@ Seven saved M queries read named tables from the same workbook via a local file 
 
 The date slicer binds Date.Date in RelativeDatePicker mode and has a visual filter that excludes blank Orders. The matrix has a visual-level exclusion for the reseller business type value [Not Applicable]. The Azure Maps tooltip has a saved sentence template with count and share placeholders. Cross-filtering, geocoding and date mode outcomes require runtime checks.
 
+The [Desktop validation register](DESKTOP_VALIDATION.md#expected-values) records independently reconciled order counts and sales values for each date role. It also documents the embedded calendar range and missing ship-date rows.
+
 Sources: [Pinned PBIX](README.md#source) and [PBIXRay](https://github.com/Hugoberry/pbixray).

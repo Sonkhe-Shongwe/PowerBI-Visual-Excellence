@@ -23,4 +23,6 @@ The saved report references the Fluent2-CY26SU08 base theme and the embedded Sof
 - The profit-by-channel chart uses a labelled reference line and conditional colour. The matrix has data-bar formatting for Profit Margin % and icon rules for Products.
 - Several phone title/subtitle overrides use sizes of 10 and 8, and the mobile matrix grid uses 8. Check these on a phone-sized canvas before using the sizes as a reference.
 
+The [accessibility checks](DESKTOP_VALIDATION.md#source-checks-for-the-accessibility-review) record the saved tab order and contrast ratios for selected theme tokens. Use them to target the live focus and readability checks.
+
 Source: [Pinned PBIX](README.md#source) and [Microsoft Learn](https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets).

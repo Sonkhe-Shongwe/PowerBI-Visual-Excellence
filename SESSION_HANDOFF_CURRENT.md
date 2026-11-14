@@ -153,7 +153,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Continue REF-004 in Power BI Desktop. Capture the Overview page and Model view, then verify date-role switching, date-picker modes, map and donut interactions, phone layout, accessibility and representative timings. Use the checklist in [the audit index](reference-studies/microsoft-2026-samples/README.md).
+Run the [REF-004 Desktop validation register](reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md) on Windows. Start with Overview and Model view, then reconcile Orders and Sales for the three June 2020 date roles. Expected values, a DAX Query View check and the remaining interaction, mobile, accessibility and performance tests are recorded in the register. All eight Desktop tests are pending.
 
 Do not recreate the report. Continue recording transferable lessons only.
 

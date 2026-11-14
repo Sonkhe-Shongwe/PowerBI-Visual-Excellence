@@ -24,13 +24,9 @@ The embedded semantic model contains ten tables, nine relationships, twenty expl
 - [Technical notes](TECHNICAL_NOTES.md)
 - [Transferable patterns](TRANSFERABLE_PATTERNS.md)
 
-## Desktop validation still to run
+## Desktop validation
 
-1. Open the pinned PBIX. Record the Desktop version, capture Overview and Model view, and inspect the donut centre value, labels and chart spacing.
-2. Exercise the date picker's calendar, range and relative modes. Compare counts after switching the Date Role slicer and verify which visuals respond.
-3. Select a map bubble and a donut segment, test cross-filtering and tooltip content, then clear the selections. Record the rendered map state and any settings that block it.
-4. Review phone layout, contrast, labels, alternative text, focus order and keyboard operation. Record representative Performance Analyzer timings.
-5. Capture outcomes and any evidence gaps before closing REF-004 or assigning a benchmark score. A refresh test, if needed, requires an accessible workbook source.
+The [validation register](DESKTOP_VALIDATION.md) contains reconciled KPI values, a DAX query for the three date roles and eight Desktop tests. Start by capturing Overview and Model view, then compare the three June 2020 date-role outcomes. Record results before closing the audit or assigning a benchmark score.
 
 ## Licensing and reuse
 

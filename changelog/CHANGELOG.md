@@ -2,6 +2,12 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-14 | REF-004 Desktop validation prepared
+
+- Reconciled June 2020 date-role totals against the embedded Sales and Sales Order tables using Pandas and SQLite. Recorded test values, empty-window behaviour to check, and missing ship-date coverage.
+- Documented saved focus order and calculated contrast ratios for selected SoftDark tokens.
+- Added an eight-test Desktop register covering KPI reconciliation, slicers, cross-filtering, tooltips, phone layout, accessibility and timings. Runtime tests are pending and P2 remains at 50%.
+
 ## 2026-11-14 | REF-004 source audit and handoff correction
 
 - Matched the official AdventureWorks Sales PBIX to its published Git blob and inspected the report definitions and embedded semantic model.

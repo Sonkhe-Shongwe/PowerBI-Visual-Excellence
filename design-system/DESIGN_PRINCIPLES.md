@@ -66,6 +66,8 @@ Filters, bookmarks, buttons, drillthrough and tooltips should be discoverable an
 - Avoid hidden interactions with no visual cue.
 - Do not make a static screenshot the only evidence of functionality.
 
+If a report can switch between operational date bases, reconcile each basis using the same fixed date range and compare it with the displayed KPI. Include an empty period and any missing date keys in validation. [AdventureWorks date-role checks](../reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md#expected-values)
+
 ## 7. Accessibility is not optional
 
 - Maintain readable text sizes and contrast.

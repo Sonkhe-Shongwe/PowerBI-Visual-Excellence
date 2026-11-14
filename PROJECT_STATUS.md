@@ -105,7 +105,7 @@ See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 
 ## REF-004 audit
 
-- [AdventureWorks Sales (2026 refresh)](reference-studies/microsoft-2026-samples/README.md) documents the saved report and model. The audit remains open while Desktop validation is pending.
+- [AdventureWorks Sales (2026 refresh)](reference-studies/microsoft-2026-samples/README.md) documents the saved report and model. The [Desktop validation register](reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md) has expected KPI values and tests. The audit remains open pending the Desktop run.
 
 ## Reference discovery gate
 
