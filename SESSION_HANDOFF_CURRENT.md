@@ -1,6 +1,6 @@
 # Current Session Handoff
 
-**Last updated:** 2026-11-13  
+**Last updated:** 2026-11-14  
 **Project:** Power BI Visual Excellence  
 **Repository:** https://github.com/Sonkhe-Shongwe/PowerBI-Visual-Excellence  
 **Branch:** main
@@ -43,11 +43,10 @@ This project is about Power BI, not PilotODIN.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
-- P2 now contains five documented studies: two source-level, two description-led and one screenshot/walkthrough-led.
+- P2 now contains eight documented studies: three source-level, four description-led and one screenshot/walkthrough-led.
 - P2 progress is 50%; overall weighted progress is approximately 28%.
-- P1 is complete: ten references are recorded and five high-priority study candidates are selected.
-- Overall weighted progress is 24%: P1 complete (15 weighted points) plus P2 at 35% (8.75 weighted points), rounded from 23.75%.
-- Current phase is P2. The next reference to investigate is REF-004, the official Microsoft Power BI sample set.
+- P1 is complete: eleven references are recorded and five high-priority study candidates are selected.
+- Current phase is P2. REF-004 is the next audit, with AdventureWorks Sales (2026 refresh) selected as the first sample. Power BI Desktop inspection is still pending.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
 
@@ -163,7 +162,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Begin REF-004, the official Microsoft Power BI sample set. Select one sample report with a useful visual and interaction architecture, then inspect the report pages, visual configuration, navigation and semantic model. Keep the analysis focused on transferable native Power BI patterns.
+Begin REF-004 with AdventureWorks Sales (2026 refresh). The selection and evidence boundary are recorded in reference-studies/microsoft-2026-samples/README.md. The official PBIX exists in Microsoft's sample repository (8,390,782 bytes). Open it in Power BI Desktop and inspect page architecture, dark-theme implementation, donut centre values, series labels, Azure Maps, date-picker behaviour, mobile layout, tooltips and the semantic model. Record only observed findings as verified; the current documentation-based feature summary is not a substitute for Desktop inspection.
 
 Do not recreate the report. Continue recording transferable lessons only.
 
