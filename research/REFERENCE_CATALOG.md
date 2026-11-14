@@ -1,6 +1,6 @@
 # Power BI Reference Catalogue
 
-**Last updated:** 2026-11-13  
+**Last updated:** 2026-11-14  
 **Purpose:** Maintain a traceable list of Power BI reports worth studying.
 
 A reference is a research candidate until it has been inspected. A public screenshot does not prove that a PBIX is downloadable; a PBIX does not prove that every external asset is reusable.
@@ -12,7 +12,7 @@ A reference is a research candidate until it has been inspected. A public screen
 | REF-001 | The World of Peaches | Championship / editorial data storytelling | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, theme and report JSON inspected; MIT declared | High | Source study documented; runtime checks pending |
 | REF-002 | City Sustainability Scorecard | Championship / executive sustainability | Public GitHub source repository and public screenshots | PBIX, DAX, HTML/CSS, TMDL, report config and model source inspected; MIT declared | High | Source study documented; runtime checks pending |
 | REF-003 | AstraVale SQL Health | Championship / operational intelligence | Public Fabric Community post and public Power BI report link | Five-page description and public report URL verified; downloadable PBIX/source not confirmed | High | Description-led study documented; runtime inspection pending |
-| REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | Multiple PBIX files available | Medium | Candidate; sample selection pending |
+| REF-004 | Microsoft 2026 Power BI samples | Official Microsoft reference set | Official documentation and GitHub repository | AdventureWorks Sales (2026 refresh) PBIX confirmed; Desktop inspection pending | Medium | Sample selected; source/runtime audit in progress |
 | REF-005 | Sales and Returns sample | Official Microsoft interaction reference | Official Microsoft sample documentation | PBIX listed | Medium | Candidate; source audit pending |
 | REF-006 | OECD Global Well-being | Championship / country comparison | Official Microsoft announcement, creator's Fabric Community entry and related Reddit discussion | Creator post includes a Power BI embed token; separate PBIX/source not confirmed | High | Description-led study documented; live/source inspection pending |
 | REF-007 | Europe in Motion | Championship / accessible data storytelling | Microsoft Fabric Community entry, creator's LinkedIn post and employer winner announcement | Four-page description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim inspected; PBIX/source not confirmed | High | Description- and screenshot-led study documented; runtime pending |
@@ -63,9 +63,15 @@ A reference is a research candidate until it has been inspected. A public screen
 
 - Official guide: https://learn.microsoft.com/en-us/power-bi/create-reports/sample-datasets
 - Official sample repository: https://github.com/microsoft/powerbi-desktop-samples
-- Microsoft documents downloadable PBIX and other sample formats. Its 2026 refresh includes AdventureWorks Sales, Artificial Intelligence and Competitive Marketing Analysis.
-- Potential learning areas: modern Microsoft visual defaults, dark-theme treatment, Azure Maps, card and donut styling, AI visuals, decomposition trees and anomaly detection.
-- Use the individual sample's source and licence details when redistributing or adapting any files.
+- Selected sample: **AdventureWorks Sales (2026 refresh)**.
+- PBIX path: `2026 Power BI Samples Revamp/AdventureWorks Sales.pbix`.
+- The file's presence was verified in the official GitHub repository tree; reported file size is 8,390,782 bytes (about 8.39 MB).
+- Microsoft documents the sample's dark theme, donut centre values, series labels, Azure Maps and date picker supporting compact calendar, range and relative-date filtering.
+- Microsoft describes collection-wide 2026 refresh improvements including a larger default canvas, purposeful mobile layouts, report-page tooltips, newer native visuals, clearer model names and descriptions, consistent formats, sort-by columns, hidden technical columns, relationship review and calculation groups. Verify which of these are present in the selected PBIX before attributing them to this report.
+- The current evidence is official documentation plus repository file metadata. The PBIX has **not** yet been opened in Power BI Desktop; page count, exact layout, theme tokens, model details and live interactions remain unverified.
+- Selection rationale: a strong first reference for dark-theme composition, current native visuals, date filtering, map integration and semantic-model quality.
+- Licensing caution: the GitHub repository has a root MIT licence, but Microsoft's sample terms separately describe sample workbooks/data as obviEnce property and require attribution when used. Do not assume the root MIT licence covers every embedded sample asset. Keep the PBIX out of this repository and verify the exact reuse terms before adapting assets.
+- See [the REF-004 selection and inspection plan](../reference-studies/microsoft-2026-samples/README.md).
 
 ### REF-005 — Sales and Returns sample
 
