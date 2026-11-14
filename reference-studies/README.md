@@ -31,6 +31,7 @@ A study should distinguish direct observation from inference. Do not claim techn
 - [Deneb Template Showcase](deneb-template-showcase/README.md) — REF-011; source-level technical study documented, runtime rendering pending.
 - [Europe in Motion](europe-in-motion/README.md) — REF-007; description- and screenshot-led study documented, PBIX/source inspection pending.
 - [SQL Radar](sql-radar/README.md) — REF-008; description-led study documented; PBIX attachment listed but not downloaded/opened.
+- [AdventureWorks Sales (2026 refresh)](microsoft-2026-samples/README.md) — REF-004; selected official Microsoft sample; Desktop inspection pending, not yet a completed study.
 
 ## What we do not do
 
