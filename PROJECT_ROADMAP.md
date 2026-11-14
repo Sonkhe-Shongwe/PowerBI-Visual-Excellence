@@ -12,11 +12,11 @@ The objective is to understand excellent Power BI work and transfer the stronges
 | Phase | Weight | Current progress | Weighted contribution | Gate |
 |---|---:|---:|---:|---|
 | P1 — Reference discovery | 15% | 100% | 15% | A varied, sourced and prioritised reference set exists |
-| P2 — Structural, visual and technical deconstruction | 25% | 55% | 13.75% | Selected reports have evidence-backed studies |
+| P2 — Structural, visual and technical deconstruction | 25% | 60% | 15% | Selected reports have evidence-backed studies |
 | P3 — Pattern extraction and design system | 25% | 0% | 0% | Transferable principles, patterns and technique notes are documented |
 | P4 — Apply lessons to personal projects | 25% | 0% | 0% | User-selected lessons are applied in the user's own project repositories |
 | P5 — Validate, refine and document learning | 10% | 0% | 0% | Applied patterns are reviewed and lessons captured |
-| **Total** | **100%** |  | **28.75%** | **Overall progress: approximately 29%** |
+| **Total** | **100%** |  | **30%** | **Overall progress: 30%** |
 
 Progress is rounded to the nearest whole percentage in the status summary. Phase weights are provisional and may be revised with a documented reason.
 
@@ -43,7 +43,7 @@ Exit criteria:
 
 **Objective:** Understand how selected reports are organised, designed and engineered.
 
-**Current reference:** REF-004, AdventureWorks Sales (2026 refresh). The saved report definitions and embedded model have been inspected. Power BI Desktop validation remains pending. See [the audit](reference-studies/microsoft-2026-samples/README.md). A description-led REF-005 study is also documented; its official PBIX is available but has not been opened or source-inspected. See [Sales and Returns](reference-studies/sales-and-returns/README.md).
+**Current reference:** REF-004, AdventureWorks Sales (2026 refresh). The saved report definitions and embedded model have been inspected. Power BI Desktop validation remains pending. See [the audit](reference-studies/microsoft-2026-samples/README.md). Description-led studies for REF-005 Sales and Returns and REF-010 Deneb Power BI Example are also documented; both PBIX files are available but have not been opened or source-inspected. See [Sales and Returns](reference-studies/sales-and-returns/README.md) and [Deneb Power BI Example](reference-studies/deneb-power-bi-example/README.md).
 
 For each selected report, study:
 - Page count, page dimensions, page purpose and narrative sequence.

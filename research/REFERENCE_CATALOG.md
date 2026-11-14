@@ -18,7 +18,7 @@ A reference is a research candidate until it has been inspected. A public screen
 | REF-007 | Europe in Motion | Championship / accessible data storytelling | Microsoft Fabric Community entry, creator's LinkedIn post and employer winner announcement | Four-page description, landing-page screenshot, HTML/CSS KPI technique and colour-blindness simulator claim inspected; PBIX/source not confirmed | High | Description- and screenshot-led study documented; runtime pending |
 | REF-008 | SQL Radar | Championship / operational monitoring | Microsoft Fabric Community entry and creator's public LinkedIn post | Three-page report description; 2.1 MB screenshot and 903 KB PBIX attachment listed; file not downloaded; licence not confirmed | Medium | Description-led study documented; PBIX inspection pending |
 | REF-009 | Power BI Basketball Cards | Championship / interactive sports storytelling | Microsoft Fabric Community entry, official winner announcement, creator walkthrough and published screenshot | Core-visual approach and interaction technique documented; PBIX download not confirmed | High | Screenshot- and walkthrough-led study documented; PBIX/source inspection pending |
-| REF-010 | Deneb Power BI Example | Technical reference / custom visual engineering | Public GitHub repository | PBIX available (about 4.53 MB); README describes Deneb examples; no LICENSE file found | Medium | Candidate; source review pending |
+| REF-010 | Deneb Power BI Example | Technical reference / custom visual engineering | Public GitHub repository and official Deneb documentation | 4.53 MB PBIX and 11.96 KB XLSX listed; PBIX/workbook not opened; no LICENSE file found | Medium | Description-led technical study documented; Desktop validation pending |
 | REF-011 | Deneb Template Showcase | Technical reference / reusable Deneb component library | Public GitHub repository and PBIP source | MIT; 21 specs, 21 previews, 21 sample datasets, 22-page PBIP showcase, custom theme and validation script | High | Source-level technical study documented; runtime pending |
 
 ## Reference details
@@ -134,12 +134,13 @@ A reference is a research candidate until it has been inspected. A public screen
 
 - Creator: BruntBroccoli.
 - Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
-- The public repository contains a 4.53 MB PBIX, a README and a synthetic data workbook.
-- The README describes a Deneb donut chart with tooltips and drillthrough, a horizontal bar with a dynamic marker, report-page tooltip functionality and drillthrough navigation.
-- The report has five named pages: How This Dashboard Works, Taxonomy, Drillthrough, Tooltip Page and Tolerance Zones.
-- Potential learning areas: Deneb/Vega-Lite specifications, custom chart encodings, tooltips, drillthrough and when a custom visual can solve a limitation of native visuals.
-- Licence status: no LICENSE file was present in the inspected repository tree. Treat the PBIX and its implementation as study-only unless reuse permission is confirmed.
-- This is a focused technical reference, not yet a benchmark for overall dashboard aesthetics.
+- The repository tree contains Deneb-Dashboard.pbix (4,533,410 bytes), README.md and Spicy_Data.xlsx (11,956 bytes). The README refers to Spicy_Data.csv, so the data-file name is inconsistent and should be checked in Desktop.
+- The README describes a Deneb taxonomy-style donut with tooltips and drillthrough, a horizontal bar with a dynamic marker, report-page tooltip functionality and a tolerance-zone spectrum bar.
+- The five named pages are How This Dashboard Works, Taxonomy, Drillthrough, Tooltip Page and Tolerance Zones.
+- The creator says the report uses AI-generated Deneb specifications and synthetic flavour-themed data. The actual specifications, dataset and report pages have not been inspected.
+- Official Deneb documentation was reviewed for data binding, row context, tooltips, context-menu drillthrough, cross-filtering, performance and security. Current Deneb context: the official release index lists 2.0.1, released 2026-10-18; the version embedded in this 2025 PBIX is unknown.
+- No LICENSE file or declared repository licence was found. Treat the PBIX, workbook and creator-authored specifications as study-only unless permission is confirmed.
+- Study files: reference-studies/deneb-power-bi-example/. No benchmark score assigned.
 
 ### REF-011 — Deneb Template Showcase
 

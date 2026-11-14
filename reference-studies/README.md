@@ -33,6 +33,7 @@ A study should distinguish direct observation from inference. Do not claim techn
 - [SQL Radar](sql-radar/README.md) — REF-008; description-led study documented; PBIX attachment listed but not downloaded/opened.
 - [AdventureWorks Sales (2026 refresh)](microsoft-2026-samples/README.md) — REF-004; official PBIX report and model inspected. The audit remains open pending Desktop validation.
 - [Sales and Returns](sales-and-returns/README.md) — REF-005; description-led interaction study documented, PBIX inspection pending.
+- [Deneb Power BI Example](deneb-power-bi-example/README.md) — REF-010; description-led technical study documented, PBIX inspection pending.
 
 ## What we do not do
 

@@ -41,11 +41,12 @@ This project is about Power BI, not PilotODIN.
 - The description- and screenshot-led REF-007 Europe in Motion study is documented in five study files. The creator describes four pages and confirms HTML Content KPI cards and HTML/CSS animated overlays; the employer says the winning report included a colour-blindness simulator. PBIX/source access remains unconfirmed.
 - The description-led REF-008 SQL Radar study is documented in five study files. Its community page lists a 903 KB PBIX attachment and a 2.1 MB screenshot; the PBIX has not been downloaded or inspected.
 - The description-led REF-005 Sales and Returns study is documented in five study files. Microsoft documents five main pages and interactions including bookmarks, tooltips, drillthrough, What-if analysis, custom visuals, Power Apps and mobile layout. The official 6.23 MB PBIX listing is verified but the binary has not been opened or source-inspected.
+- The description-led REF-010 Deneb Power BI Example study is documented in six study files plus a Desktop validation register. The creator README names five pages and describes a taxonomy donut, dynamic-marker bar, report-page tooltip, drillthrough and tolerance-zone spectrum. The 4.53 MB PBIX is present but its internal specs have not been inspected; the repository has no declared licence or LICENSE file. The README's Spicy_Data.csv reference does not match the Spicy_Data.xlsx file in the repository tree.
 - The OECD creator post includes a Power BI embed token, but the live report could not be rendered and no separate PBIX/source repository was confirmed.
 - The public AstraVale Power BI URL has been identified but could not be rendered in the available browsing interface; no PBIX/source repository has been confirmed.
 - The World of Peaches and City Sustainability Scorecard PBIX files have not yet been opened and tested in Power BI Desktop; runtime interactions and accessibility remain unverified.
-- P2 now contains nine documented studies: three source-level, five description-led and one screenshot/walkthrough-led.
-- P2 progress is 55%; overall weighted progress is approximately 29%.
+- P2 now contains ten documented studies: three source-level, six description-led and one screenshot/walkthrough-led.
+- P2 progress is 60%; overall weighted progress is 30%.
 - REF-004 AdventureWorks Sales (2026 refresh) has a documented source audit covering its single Overview page, SoftDark theme, phone placements, ten model tables and two calculation groups. Power BI Desktop validation remains pending.
 - No full dashboard recreation has been started.
 - No personal project has been modified.
@@ -103,6 +104,16 @@ Winner announcement: https://www.linkedin.com/posts/infosys-americas_our-colleag
 The creator describes four pages: Overview, Reading Between the Regions, Contrasts and Head-to-Head: Countries. He confirms HTML Content for KPI cards and HTML/CSS animated overlays. The employer says the winning presentation included a colour-blindness simulator. No downloadable PBIX or source repository was confirmed.
 
 Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md and TRANSFERABLE_PATTERNS.md under reference-studies/europe-in-motion/.
+
+### Deneb Power BI Example
+
+Source: https://github.com/BruntBroccoli/Deneb-Power-BI-Example
+
+The repository tree contains Deneb-Dashboard.pbix (4,533,410 bytes), README.md and Spicy_Data.xlsx (11,956 bytes). The README describes a taxonomy-style Deneb donut with tooltips and drillthrough, a horizontal bar with a dynamic marker, report-page tooltip functionality, a tolerance-zone spectrum bar, and five pages: How This Dashboard Works, Taxonomy, Drillthrough, Tooltip Page and Tolerance Zones. The README refers to Spicy_Data.csv, which does not match the XLSX file in the tree. The creator says the specs are AI-generated and the data is synthetic. No LICENSE file or declared repository licence was found. The PBIX internals and embedded Deneb version remain unknown.
+
+Official Deneb context: the release index lists version 2.0.1 (2026-10-18). Version 2.0 adds field-parameter support, continuous view data patching for eligible datasets, compiled-Vega inspection, and rendering/debug improvements. These are current product features, not verified features of the 2025 sample.
+
+Study files: README.md, STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_NOTES.md, TRANSFERABLE_PATTERNS.md and DESKTOP_VALIDATION.md under reference-studies/deneb-power-bi-example/.
 
 ### Deneb Template Showcase
 
@@ -164,7 +175,7 @@ Study files: STUDY_NOTES.md, PAGE_ARCHITECTURE.md, VISUAL_SYSTEM.md, TECHNICAL_N
 
 ## Immediate next session
 
-Run the [REF-004 Desktop validation register](reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md) on Windows. Start with Overview and Model view, then reconcile Orders and Sales for the three June 2020 date roles. Expected values, a DAX Query View check and the remaining interaction, mobile, accessibility and performance tests are recorded in the register. All eight Desktop tests are pending. After that pass, open the Sales and Returns PBIX and verify the creator-described bookmark, drillthrough, What-if, custom-visual and phone-layout behaviour.
+Run the [REF-004 Desktop validation register](reference-studies/microsoft-2026-samples/DESKTOP_VALIDATION.md) on Windows. Start with Overview and Model view, then reconcile Orders and Sales for the three June 2020 date roles. Expected values, a DAX Query View check and the remaining interaction, mobile, accessibility and performance tests are recorded in the register. All eight Desktop tests are pending. After that pass, open the Sales and Returns PBIX and verify the creator-described bookmark, drillthrough, What-if, custom-visual and phone-layout behaviour. Then use the [REF-010 Desktop validation register](reference-studies/deneb-power-bi-example/DESKTOP_VALIDATION.md) to inspect the actual Deneb specifications and test the custom interactions.
 
 Do not recreate the report. Continue recording transferable lessons only.
 

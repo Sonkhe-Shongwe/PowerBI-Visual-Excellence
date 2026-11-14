@@ -28,4 +28,4 @@ Every technique should include:
 - Source links and licence details for dependencies.
 - A test result from Power BI Desktop.
 
-Do not mark a technique as tested based only on reading an article or viewing a screenshot.
+Research inputs for Deneb now include [REF-010 Deneb Power BI Example](../reference-studies/deneb-power-bi-example/TECHNICAL_NOTES.md) and [REF-011 Deneb Template Showcase](../reference-studies/deneb-template-showcase/TECHNICAL_NOTES.md). These are research studies, not tested implementation notes. Do not mark a technique as tested based only on reading an article or viewing a screenshot; a minimal specification must be implemented and validated in Power BI Desktop.

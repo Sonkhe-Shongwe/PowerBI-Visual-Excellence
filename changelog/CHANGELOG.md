@@ -2,6 +2,17 @@
 
 Material project changes are recorded here in reverse chronological order.
 
+## 2026-11-14 | REF-010 Deneb Power BI Example study documented
+
+- Inspected the creator repository metadata, recursive file tree and README.
+- Verified the 4,533,410-byte PBIX, 11,956-byte XLSX and the README/file-tree mismatch (CSV named in README, XLSX present in repository).
+- Recorded five creator-named pages and the described taxonomy donut, dynamic-marker bar, report-page tooltip, drillthrough and tolerance-zone spectrum.
+- Reviewed official Deneb documentation for dataset binding, row-context resolution, tooltips, context-menu drillthrough, cross-filtering, performance, security and current release changes.
+- Recorded Deneb 2.0.1 as the latest listed release; the Deneb version embedded in the 2025 PBIX remains unknown.
+- Confirmed no LICENSE file or declared repository licence; the example remains study-only unless permission is obtained.
+- Added six study documents and a Desktop validation register; updated the catalogue, status, roadmap, handoff, documentation index and techniques index.
+- P2 moved to 60%; overall weighted progress is 30%. No PBIX internals, runtime behaviour, benchmark score or personal-project implementation are claimed.
+
 ## 2026-11-14 | REF-005 Sales and Returns study documented
 
 - Inspected the Microsoft Learn report article, Microsoft Fabric Community creator tour, official GitHub PBIX listing and an official report screenshot.
