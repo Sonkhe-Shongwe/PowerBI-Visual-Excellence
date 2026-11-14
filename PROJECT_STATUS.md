@@ -1,9 +1,9 @@
 # Project Status
 
-**As of:** 2026-11-13  
+**As of:** 2026-11-14  
 **Overall progress:** 28% (weighted estimate)  
 **Current phase:** P2 — Structural, visual and technical deconstruction
-**Current focus:** Official Microsoft sample audit, beginning with REF-004  
+**Current focus:** REF-004, AdventureWorks Sales (2026 refresh); Power BI Desktop inspection pending  
 **Project state:** Reference discovery gate complete; eight studies documented, three source-level, four description-led and one screenshot/walkthrough-led
 
 ## Executive status
@@ -103,9 +103,14 @@ See [REFERENCE_CATALOG.md](research/REFERENCE_CATALOG.md) for links and caveats.
 - [Technical notes](reference-studies/city-sustainability-scorecard/TECHNICAL_NOTES.md)
 - [Transferable patterns](reference-studies/city-sustainability-scorecard/TRANSFERABLE_PATTERNS.md)
 
+## REF-004 selection note
+
+- [AdventureWorks Sales (2026 refresh): selection and inspection plan](reference-studies/microsoft-2026-samples/README.md)
+- The official PBIX is present in Microsoft's sample repository; Power BI Desktop inspection, interaction testing and model verification remain pending.
+
 ## Reference discovery gate
 
-P1 is complete: the catalogue now contains ten references, each with a source link and verification status, and five high-priority candidates have been selected. Priority labels are study sequencing, not benchmark scores.
+P1 is complete: the catalogue now contains eleven references, each with a source link and verification status, and five high-priority candidates have been selected. Priority labels are study sequencing, not benchmark scores.
 
 ## Current boundaries
 
@@ -118,7 +123,7 @@ P1 is complete: the catalogue now contains ten references, each with a source li
 
 ## Next action
 
-Begin the next source-based audit with REF-004, the official Microsoft Power BI sample set. Select one sample with a clear report architecture and inspect its PBIX/source materials, page structure, visual configuration, navigation and semantic model. Keep this as a learning reference rather than a personal project.
+Continue the REF-004 audit with the selected AdventureWorks Sales (2026 refresh) PBIX. Open it in Power BI Desktop, capture every report page, inspect the theme and visual configuration, test date-picker and Azure Maps interactions, and review the semantic model. Record the observed evidence in the five study documents before marking the reference complete. Keep this as a learning reference rather than a personal project.
 
 The SQL Radar PBIX attachment is listed publicly but has not been downloaded/opened. The World of Peaches and City Sustainability PBIX files also remain untested in Power BI Desktop.
 
